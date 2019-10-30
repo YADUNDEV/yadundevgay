@@ -1,2 +1,0 @@
-# jacobsirottacom
-Portfolio Website

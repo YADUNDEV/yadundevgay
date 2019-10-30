@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet"href="../../main.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="../../iframe-resizer-4.1.1/js/iframeResizer.min.js"></script>
+  <script type="text/javascript" src="../../iframe-resizer-4.1.1/js/iframeResizer.contentWindow.min.js"></script>
+  <script type="text/javascript" src="../../worksFunctions.js"></script>
+</head>
+<body>
+  <button id="pfproto" class="accordion"><div class="b_flex"><span class="w_title">Platform Fighter Prototype</span><span class="w_date">2018</span></div></button>
+  <div class="panel">
+    <div class="w_grid">
+      <div class="w_gitem1"><iframe width="560" height="315" src="https://www.youtube.com/embed/vj7Q4ypKWxs" frameborder="0" allow="accelerometer;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="w_gitem2">This prototype is a physics and input/output recreation of the original Super Smash Bros. It uses a state machine setup where physics and transitional permissions are determined by predetermined pointers with correspondence to each individual frame of each possible animation. There are three methods states can use to transition between each other; In addition to override transitions, the prototype features two state buffer systems, one for per frame buffers and another for buffers that are activated at the end of x number of state transitions (as an example, shield breaks would use the latter type, as the character would go through a tumble, getup, and dizzy state). Scale and physics is nearly 1:1 with the original game, and so are inputs for all movement and shield related states as well as aerial and special attacks. The prototype declares and defines roughly 151 different states, with roughly 30-50 of those being functional for the at the time of recording the video demonstration. In the time since, visual feedback as well as hitboxes and vulnerable states have been added, shown in the gif.</div>
+      <div class="w_gitem3">
+        <div class="p_details">
+          <div class="p_detail"><h1>Engine: </h1><h2>Unity 2018</h2></div>
+          <div class="p_detail"><h1>Role: </h1><h2>Independent</h2></div>
+        </div>
+      </div>
+      <div class="w_gitem4"><a href="gross.gif" target=_blank><img src="gross.gif"></a></div>
+    </div>
+  </div>
+  <script type="text/javascript" src="../../expandWorkElement.js"></script>
+</body>
+</html>
