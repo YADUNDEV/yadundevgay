@@ -1,7 +1,7 @@
 var frames;
 var links = [];
 
-window.onload = function()
+/*window.onload = function()
 {
   frames = document.getElementsByTagName("IFRAME");
   links = [frames.length];
@@ -46,3 +46,4 @@ function updateVisibility()
     //else
   }
 }
+*/

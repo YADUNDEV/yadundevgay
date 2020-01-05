@@ -225,10 +225,10 @@ body
 	color: var(--cBeige3);
 	position: relative;
 	width: 100%;
-	height: 160vh;/*overflow:hidden;*/
+	height: 160vh;
 	top: 0%;
 
-	display:flex;
+	display:flex
 	flex-direction: column;
   flex: 1 1 auto;
 	flex-wrap: nowrap;
@@ -859,4 +859,14 @@ body
 	-webkit-transform: translate(100vw,0);
 	-o-transform: translate(100vw,0);
 	-moz-transform: translate(100vw,0);
+}
+.scroller-status
+{
+	display:block;
+	position: relative;
+	font: 3.6px 'Poiret One';
+	text-align: center;
+	color:var(--cBeige3);
+	width: 100%
+	height: 200px;
 }
