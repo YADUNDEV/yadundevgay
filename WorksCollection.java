@@ -53,9 +53,7 @@ function loadJSON(callback, path){
 
 function loadContent(work){
   var wtemp = document.getElementsByTagName("template")[0];
-  var dtemp = document.getElementsByTagName("template")[1];
   var wblock = wtemp.content.querySelector("div");
-  var dblock = dtemp.content.querySelector("div");
 
   var wnode = document.importNode(wblock,true);
   var wbutt = wnode.querySelector(".accordion");

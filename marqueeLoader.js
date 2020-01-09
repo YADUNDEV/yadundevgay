@@ -40,7 +40,7 @@ function generateImages()
 
     'pfproto/gross.gif',
 
-    'robocatouya/rbouyathumb.png',
+    'robocatouya/rbouyathumb.PNG',
     'robocatouya/robocat.gif',
     'robocatouya/SS3.png',
     'robocatouya/SS7.png',
