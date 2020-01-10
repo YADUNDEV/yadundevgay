@@ -84,5 +84,5 @@ function loadContent(work){
   for (var o = 0; o < work.embeds.length;o++){
     emnode.textContent+=work.embeds[o];
   }
-  document.getElementsByClassName(".works-content")[0].appendChild(wnode);
+  document.querySelector(".works-content").appendChild(wnode);
 }
