@@ -30,14 +30,27 @@ function loadJSON(callback, path){
     }
   };
   xobj.send(null);
-
-/*
-  works = new WorkData[1];
-  for (int i = 0; i < 1; i++){
-    var xmlhttp = new XMLHttpRequest();
-  }
-  loadContent();*/
 }
+
+/*var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++)
+{
+  acc[i].addEventListener("click", function()
+  {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight)
+    {
+      panel.style.maxHeight = null;
+    }
+    else
+    {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}*/
+
 
 function loadContent(work){
   var wblock = document.getElementsByTagName("template").item(0).content.querySelector("div");
@@ -46,6 +59,19 @@ function loadContent(work){
   var temps = wnode.querySelectorAll('template');
 
   var wbutt = wnode.querySelector(".accordion");
+
+  //ADD BUTTON EVENT LISTENER//
+  wbutt.addEventListener("click", function()
+    {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight)
+      {panel.style.maxHeight = null;}
+      else
+      {panel.style.maxHeight = panel.scrollHeight + "px";}
+    }
+  );
+
   //THUMBNAIL//
   wbutt.setAttribute("id",work.buttonid);
   wbutt.querySelector(".w_title").textContent = work.title;
@@ -60,12 +86,6 @@ function loadContent(work){
     var deet = document.importNode(temps.item(0).content.querySelector("div"),true);
     deet.firstElementChild.textContent = work.details[o];
     deet.lastElementChild.textContent = work.detailsContent[o];
-    /*
-    dnode.textContent += "<div class = 'p_detail'><h1>'"+
-    work.details[o]+
-    "'</h1><h2>"+
-    work.detailsContent[o]+
-    "'</h2></div>";*/
     dnode.appendChild(deet);
   }
   //IMAGES//
@@ -75,10 +95,6 @@ function loadContent(work){
     _img.setAttribute('href','works/'+work.images[o]);
     _img.querySelector("img").setAttribute('src','works/'+work.images[o]);
     imnode.appendChild(_img);
-    /*
-    imnode.textContent += "<a href = "+"'works/"+work.images[o]+"'"+
-    " target = '_blank'><img src = 'works/"+work.images[o]+"'></a>";
-    */
   }
   //EMBEDS//
   var emnode = wnode.querySelector(".w_gitem5");
@@ -88,7 +104,6 @@ function loadContent(work){
       _emb.setAttribute(work.embeds[o].attributes[p].k,work.embeds[o].attributes[p].v);
     }
     emnode.appendChild(_emb);
-    //emnode.textContent+=work.embeds[o];
   }
   document.querySelector(".works-content").appendChild(wnode);
 }
