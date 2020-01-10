@@ -64,15 +64,15 @@ function loadContent(work){
   wbutt.querySelector(".w_title").textContent = work.title;
   wbutt.querySelector(".w_date").textContent = work.date;
   //VIDEO AND DESCRIPTION//
-  wnode.querySelector(".w_gitem1").firstChild.setAttribute("src",work.video);
+  wnode.querySelector(".w_gitem1").firstElementChild.setAttribute("src",work.video);
   wnode.querySelector(".w_gitem2").textContent = work.description;
   //DETAILS//
   var dnode = wnode.querySelector(".p_details");
 
   for (var o = 0; o < work.details.length;o++){
     var deet = document.importNode(temps[1].querySelector("div"));
-    deet.firstChild.textContent = work.details[o];
-    deet.lastChild.textContent = work.detailsContent[o];
+    deet.firstElementChild.textContent = work.details[o];
+    deet.lastElementChild.textContent = work.detailsContent[o];
     /*
     dnode.textContent += "<div class = 'p_detail'><h1>'"+
     work.details[o]+
@@ -86,7 +86,7 @@ function loadContent(work){
   for (var o = 0; o < work.images.length;o++){
     var _img = document.importNode(temps[2].querySelector("a"));
     _img.setAttribute('href','works/'+work.images[o]);
-    _img.firstChild.setAttribute('src','works/'+work.images[o]);
+    _img.firstElementChild.setAttribute('src','works/'+work.images[o]);
     imnode.appendChild(_img);
     /*
     imnode.textContent += "<a href = "+"'works/"+work.images[o]+"'"+
