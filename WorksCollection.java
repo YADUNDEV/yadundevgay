@@ -58,8 +58,8 @@ function loadContent(work){
 
   for (var o = 0; o < work.details.length;o++){
     var deet = document.importNode(temps.item(0).content.querySelector("div"));
-    deet.querySelector("h1").textContent = work.details[o];
-    deet.querySelector("h2").textContent = work.detailsContent[o];
+    deet.getElementsByTagName("h1")[0].textContent = work.details[o];
+    deet.getElementsByTagName("h2")[0].textContent = work.detailsContent[o];
     /*
     dnode.textContent += "<div class = 'p_detail'><h1>'"+
     work.details[o]+
