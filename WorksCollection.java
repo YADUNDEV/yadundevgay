@@ -58,8 +58,8 @@ function loadContent(work){
 
   for (var o = 0; o < work.details.length;o++){
     var deet = document.importNode(temps.item(0).content.querySelector("div"));
-    deet.firstElementChild.textContent = work.details[o];
-    deet.lastElementChild.textContent = work.detailsContent[o];
+    deet.querySelector("h1").textContent = work.details[o];
+    deet.querySelector("h2").textContent = work.detailsContent[o];
     /*
     dnode.textContent += "<div class = 'p_detail'><h1>'"+
     work.details[o]+
@@ -73,7 +73,7 @@ function loadContent(work){
   for (var o = 0; o < work.images.length;o++){
     var _img = document.importNode(temps.item(1).content.querySelector("a"));
     _img.setAttribute('href','works/'+work.images[o]);
-    _img.firstElementChild.setAttribute('src','works/'+work.images[o]);
+    _img.querySelector("img").setAttribute('src','works/'+work.images[o]);
     imnode.appendChild(_img);
     /*
     imnode.textContent += "<a href = "+"'works/"+work.images[o]+"'"+
