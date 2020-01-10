@@ -57,9 +57,9 @@ function loadContent(work){
   var dnode = wnode.querySelector(".p_details");
 
   for (var o = 0; o < work.details.length;o++){
-    var deet = document.importNode(temps.item(0).content.querySelector("div"));
-    deet.getElementsByTagName("h1")[0].textContent = work.details[o];
-    deet.getElementsByTagName("h2")[0].textContent = work.detailsContent[o];
+    var deet = document.importNode(temps.item(0).content.querySelector("div"),true);
+    deet.firstElementChild.textContent = work.details[o];
+    deet.lastElementChild.textContent = work.detailsContent[o];
     /*
     dnode.textContent += "<div class = 'p_detail'><h1>'"+
     work.details[o]+
@@ -71,7 +71,7 @@ function loadContent(work){
   //IMAGES//
   var imnode = wnode.querySelector(".w_gitem4");
   for (var o = 0; o < work.images.length;o++){
-    var _img = document.importNode(temps.item(1).content.querySelector("a"));
+    var _img = document.importNode(temps.item(1).content.querySelector("a"),true);
     _img.setAttribute('href','works/'+work.images[o]);
     _img.querySelector("img").setAttribute('src','works/'+work.images[o]);
     imnode.appendChild(_img);
