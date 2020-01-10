@@ -7,15 +7,19 @@
   "details":[
     "Engine: ",
     "Platforms: ",
-    "Role: ",
-    "Link"
+    "Role: "
   ],
   "detailsContent":[
     "GameMaker: Studio",
     "OUYA",
     "Independent",
-    "<a href='https://www.ouya.tv/game/ROBOCAT-02-II-DUO-PI-JUDGEMENT-DAYS-XxXTURBOXxX-EDITION-DX/' target=_blank alt='Project Link'><button>OUYA Store</button>"
+    ""
   ],
+  "link":{
+    "show":"true",
+    "info":"Itch.io",
+    "url":"https://yadunded.itch.io/robocat-02-jd-turbodx"
+  },
   "images":[
     "robocatouya/SS2.png",
     "robocatouya/SS15.png",

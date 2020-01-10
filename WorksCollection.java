@@ -31,27 +31,6 @@ function loadJSON(callback, path){
   };
   xobj.send(null);
 }
-
-/*var acc = document.getElementsByClassName("accordion");
-var i;
-for (i = 0; i < acc.length; i++)
-{
-  acc[i].addEventListener("click", function()
-  {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight)
-    {
-      panel.style.maxHeight = null;
-    }
-    else
-    {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
-}*/
-
-
 function loadContent(work){
   var wblock = document.getElementsByTagName("template").item(0).content.querySelector("div");
 
@@ -88,6 +67,18 @@ function loadContent(work){
     deet.lastElementChild.textContent = work.detailsContent[o];
     dnode.appendChild(deet);
   }
+  //LINK//
+  var lnode = wnode.querySelectorAll(".p_details");
+  if (work.link.show != "true")
+  {
+    lnode.style.display = "hidden";
+  }
+  else
+  {
+    lnode.lastElementChild.firstElementChild.setAttribute("href",work.link.url);
+    lnode.lastElementChild.firstElementChild.firstElementChild.textContent = work.link.info;
+  }
+
   //IMAGES//
   var imnode = wnode.querySelector(".w_gitem4");
   for (var o = 0; o < work.images.length;o++){
