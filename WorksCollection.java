@@ -58,7 +58,7 @@ function loadContent(work){
   var wnode = document.importNode(wblock,true);
   var wbutt = wnode.querySelector(".accordion");
   //THUMBNAIL//
-  wbutt.attr("id",work.buttonid);
+  wbutt.setAttribute("id",work.buttonid);
   wbutt.querySelector(".w_title").textContent = work.title;
   wbutt.querySelector(".w_date").textContent = work.date;
   //VIDEO AND DESCRIPTION//
