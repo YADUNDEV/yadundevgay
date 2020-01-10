@@ -21,13 +21,15 @@ $('.works-content').infiniteScroll({
 window.onload = init();
 
 function init() {
-  loadJSON(
-    function(response)
-    {
-      var wd = JSON.parse(response);
-      loadContent(wd);
-    },'workdata/preview0.json'
-  );
+  for (var i = 0; i < 20; i++){
+    loadJSON(
+      function(response)
+      {
+        var wd = JSON.parse(response);
+        loadContent(wd);
+      },'workdata/preview'+i.toString()+'.json'
+    );
+  }
 }
 
 function loadJSON(callback, path){
