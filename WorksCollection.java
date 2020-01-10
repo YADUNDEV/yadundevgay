@@ -58,9 +58,9 @@ function loadContent(work){
   var wnode = document.importNode(wblock,true);
   var wbutt = wnode.querySelector(".accordion");
   //THUMBNAIL//
-  butt.attr("id",work.buttonid);
-  butt.querySelector(".w_title").textContent = work.title;
-  butt.querySelector(".w_date").textContent = work.date;
+  wbutt.attr("id",work.buttonid);
+  wbutt.querySelector(".w_title").textContent = work.title;
+  wbutt.querySelector(".w_date").textContent = work.date;
   //VIDEO AND DESCRIPTION//
   wnode.querySelector(".w_gitem1").textContent = work.video;
   wnode.querySelector(".w_gitem2").textContent = work.description;
