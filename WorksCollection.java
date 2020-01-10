@@ -55,7 +55,7 @@ function loadJSON(callback, path){
 
 function loadContent(work){
   var temps = document.getElementsByTagName("template");
-  var wblock = temps[0].content.querySelector("div");
+  var wblock = temps.item(0).content.querySelector("div");
 
   var wnode = document.importNode(wblock,true);
   var wbutt = wnode.querySelector(".accordion");
@@ -70,7 +70,7 @@ function loadContent(work){
   var dnode = wnode.querySelector(".p_details");
 
   for (var o = 0; o < work.details.length;o++){
-    var deet = document.importNode(temps[1].content.querySelector("div"));
+    var deet = document.importNode(temps.item(1).content.querySelector("div"));
     deet.firstElementChild.textContent = work.details[o];
     deet.lastElementChild.textContent = work.detailsContent[o];
     /*
@@ -84,7 +84,7 @@ function loadContent(work){
   //IMAGES//
   var imnode = wnode.querySelector(".w_gitem4");
   for (var o = 0; o < work.images.length;o++){
-    var _img = document.importNode(temps[2].content.querySelector("a"));
+    var _img = document.importNode(temps.item(2).content.querySelector("a"));
     _img.setAttribute('href','works/'+work.images[o]);
     _img.firstElementChild.setAttribute('src','works/'+work.images[o]);
     imnode.appendChild(_img);
@@ -96,7 +96,7 @@ function loadContent(work){
   //EMBEDS//
   var emnode = wnode.querySelector(".w_gitem5");
   for (var o = 0; o < work.embeds.length;o++){
-    var _emb = document.importNode(temps[3].content.querySelector("iframe"));
+    var _emb = document.importNode(temps.item(3).content.querySelector("iframe"));
     for (var p = 0; p < work.embeds[o].attributes.length;p++){
       _emb.setAttribute(work.embeds[o].attributes[p].k,work.embeds[o].attributes[p].v);
     }
