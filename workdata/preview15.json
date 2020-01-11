@@ -1,0 +1,28 @@
+{
+  "buttonid" : "gravitymasters",
+  "title" : "Gravity Masters X",
+  "date":"2018",
+  "video":"",
+  "description":"An experimental 6-DOF FPS developed for the fictional Simon X, where the player can use gyro sensors to move, turn, and rotate gravity.",
+  "details":[
+    "Engine: ",
+    "Platforms: ",
+    "Role: ",
+    "Team Size: "
+  ],
+  "detailsContent":[
+    "Unity 2018",
+    "PC",
+    "Programming, Sound Design, Design, Tech. Art",
+    "4"
+  ],
+  "link":{
+    "show":"false",
+    "info":"",
+    "url":""
+  },
+  "images":[
+  ],
+  "embeds":[
+  ]
+}

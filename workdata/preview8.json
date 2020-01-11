@@ -1,0 +1,41 @@
+{
+  "buttonid" : "sputnik",
+  "title" : "Help Sputnik Get to Space!",
+  "date":"2017",
+  "video":"https://www.youtube.com/embed/ud_H2bi-Was",
+  "description":"An infinite runner designed for Android devices and PC. Uses an object pooling system for randomly generated obstacles, as well as logic that indirectly increases the difficulty over time.",
+  "details":[
+    "Engine: ",
+    "Platforms: ",
+    "Role: ",
+    "Team Size: "
+  ],
+  "detailsContent":[
+    "Unity 2017",
+    "PC, Android",
+    "Programming, Sound, Design, 3D/2D Art and UI",
+    "3"
+  ],
+  "link":{
+    "show":"true",
+    "info":"Itch.io",
+    "url":"https://yadunded.itch.io/help-sputnik-get-to-space-"
+  },
+  "images":[
+    "sputnik/title.gif",
+    "sputnik/sewers.gif",
+    "sputnik/nasa.gif"
+  ],
+  "embeds":[
+    {
+      "attributes":
+      [
+        {"k":"width","v":"100%"},
+        {"k":"height","v":"166"},
+        {"k":"scrolling","v":"no"},
+        {"k":"allow","v":"autoplay"},
+        {"k":"src","v":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/963839971&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"}
+      ]
+    }
+  ]
+}

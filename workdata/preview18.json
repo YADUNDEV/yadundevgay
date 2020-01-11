@@ -1,0 +1,29 @@
+{
+  "buttonid" : "golf",
+  "title" : "Cards & Clubs: The Game",
+  "date":"2019",
+  "video":"",
+  "description":"Golf With Cards is a 1-on-1 competitive golf party game slated for release in 2019. Built in the Unity engine, I am responsible for the majority of this game's programming. More information will follow closer to release.",
+  "details":[
+    "Engine: ",
+    "Platforms: ",
+    "Role: ",
+    "Team Size: "
+  ],
+  "detailsContent":[
+    "Unity 2018",
+    "PC",
+    "Programming, Tech. Art",
+    "6"
+  ],
+  "link":{
+    "show":"false",
+    "info":"",
+    "url":""
+  },
+  "images":[
+    "golf/cards.gif"
+  ],
+  "embeds":[
+  ]
+}

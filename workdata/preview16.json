@@ -1,0 +1,31 @@
+{
+  "buttonid" : "spinnyships",
+  "title" : "Spinny Ships",
+  "date":"2018",
+  "video":"https://www.youtube.com/embed/cOqFho2vzZQ",
+  "description":"Spinny Ships is a tiny 4-color arcade shooter that draws inspiration from titles such as Gyruss and Tempest, developed over the course of a few weeks. Features dynamic difficulty scaling and procedural enemy patterns.",
+  "details":[
+    "Engine: ",
+    "Platforms: ",
+    "Role: ",
+    "Team Size: "
+  ],
+  "detailsContent":[
+    "Unity 2018",
+    "PC",
+    "Programming, Sound, Design, Effects Design",
+    "3"
+  ],
+  "link":{
+    "show":"true",
+    "info":"Itch.io",
+    "url":"https://yadunded.itch.io/spinny-ships"
+  },
+  "images":[
+    "spinnyships/ss1.png",
+    "spinnyships/ss2.png",
+    "spinnyships/ss3.png"
+  ],
+  "embeds":[
+  ]
+}

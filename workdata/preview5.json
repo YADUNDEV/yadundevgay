@@ -1,0 +1,26 @@
+{
+  "buttonid" : "juice",
+  "title" : "Juice",
+  "date":"2017",
+  "video":"https://www.youtube.com/embed/DXlXF-J4pnU",
+  "description":"A physics-based puzzle game prototype.",
+  "details":[
+    "Engine: ",
+    "Platforms: ",
+    "Role: "
+  ],
+  "detailsContent":[
+    "Unity 5",
+    "PC",
+    "Independent",
+  ],
+  "link":{
+    "show":"false",
+    "info":"",
+    "url":""
+  },
+  "images":[
+  ],
+  "embeds":[
+  ]
+}

@@ -7,7 +7,7 @@ function init() {
 
   var wnode = document.importNode(wblock,true);
   alert(wnode.querySelectorAll('template').length);*/
-  for (var i = 0; i < 1; i++){
+  for (var i = 18; i >= 0; i--){
     loadJSON(
       function(response)
       {
@@ -68,7 +68,7 @@ function loadContent(work){
     dnode.appendChild(deet);
   }
   //LINK//
-  var lnode = wnode.querySelectorAll(".p_details").item(1).content.firstElementChild;
+  var lnode = wnode.getElementsByClassName("p_details")[1].getElementsByClassName("p_detail")[0];
   if (work.link.show != "true")
   {
     lnode.style.display = "hidden";
