@@ -260,7 +260,7 @@ body
 .accordion
 {
     background-color: var(--cBrown2);
-    font: 3.6vmax 'Poiret One';
+    font: 3.6em 'Poiret One';
 		color:var(--cBeige3);
     cursor: pointer;
     padding: 4%;
@@ -283,6 +283,10 @@ body
 	justify-content: space-between;
 	align-content: flex-start;
 	align-items: center;
+}
+.w_title
+{
+
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover
