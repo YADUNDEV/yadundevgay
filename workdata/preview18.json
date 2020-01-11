@@ -2,8 +2,8 @@
   "buttonid" : "golf",
   "title" : "Cards & Clubs: The Game",
   "date":"2019",
-  "video":"",
-  "description":"Golf With Cards is a 1-on-1 competitive golf party game slated for release in 2019. Built in the Unity engine, I am responsible for the majority of this game's programming. More information will follow closer to release.",
+  "video":"https://www.youtube.com/embed/WRmK7rFaMZU",
+  "description":"Cards & Clubs: The Game is a competitive 1-on-1 golf party game wherein the goal is to reach the hole before the other player by any means necessary. At each players' disposal is a deck of cards. These cards come in 3 types: Buffs, which tweak your swing or ball's physics to give you the upper-hand, Debuffs, which stunt the effectiveness of your opponents swing, and Obstacles, which summon physical objects that can be placed anywhere on the map. The game features a plethora of customization options including custom decks, custom controls, wearable hats, custom ball trails, and more. Cards & Clubs was developed alongside 5 other students as our senior capstone at GMU.",
   "details":[
     "Engine: ",
     "Platforms: ",
@@ -13,7 +13,7 @@
   "detailsContent":[
     "Unity 2018",
     "PC",
-    "Programming, Tech. Art",
+    "Programming, UI & Design, Tech. Art",
     "6"
   ],
   "link":{
@@ -22,7 +22,9 @@
     "url":""
   },
   "images":[
-    "golf/cards.gif"
+    "golf/ss1.gif",
+    "golf/ss3.jpg",
+    "golf/ss2.gif"
   ],
   "embeds":[
   ]

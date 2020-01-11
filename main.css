@@ -265,6 +265,7 @@ body
     cursor: pointer;
     padding: 4%;
     width: 100%;
+		height: 170px;
     text-align: left;
     border: none;
     outline: none;
@@ -298,7 +299,7 @@ body
 #fromform.active, #fromform.accordion:hover
 {background-image: url("works/fromform/thumbnail.gif");}
 #golf.active, #golf.accordion:hover
-{background-image: url("works/golf/cards.gif");}
+{background-image: url("works/golf/title.gif");}
 #spinnyships.active, #spinnyships.accordion:hover
 {background-image: url("works/spinnyships/title.gif");}
 #pfproto.active, #pfproto.accordion:hover
@@ -308,7 +309,7 @@ body
 #aurora.active, #aurora.accordion:hover
 {background-position: top;background-image: url("works/aurora/ANScreenShot.jpg");}
 #parallel.active, #parallel.accordion:hover
-{background-image: url("works/parallel/PARALLEL_SCREEN_3.png");}
+{background-image: url("works/parallel/PARALLEL_SCREEN_3.jpg");}
 #socc3.active, #socc3.accordion:hover
 {background-image: url("works/socc/looper.gif");}
 #hope.active, #hope.accordion:hover
@@ -318,9 +319,9 @@ body
 #bonebois.active, #bonebois.accordion:hover
 {background-image: url("works/bonebois/bb1.gif");}
 #backfire.active, #backfire.accordion:hover
-{background-image: url("works/backfire/gameplay.gif");}
+{background-image: url("works/backfire/title.gif");}
 #juice.active, #juice.accordion:hover
-{background-image: url("works/juice/OOS_JUICE.png");}
+{background-image: url("works/juice/OOS_JUICE.jpg");}
 #echoes.active, #echoes.accordion:hover
 {background-position: top;background-image: url("works/echoes/title.gif");}
 #mcp.active, #mcp.accordion:hover

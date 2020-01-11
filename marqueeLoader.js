@@ -7,7 +7,7 @@ function generateImages()
     'aurora/ANScreenShot.jpg',
 
     'backfire/gameplay.gif',
-    'backfire/title.png',
+    'backfire/title.gif',
 
     'bonebois/bb1.gif',
     'bonebois/bbtitle.gif',
@@ -34,9 +34,9 @@ function generateImages()
     'mcp/mcthumgj.gif',
     'mcp/mcscreen1.png',
 
-    'parallel/PARALLEL_SCREEN_1.png',
-    'parallel/PARALLEL_SCREEN_2.png',
-    'parallel/PARALLEL_SCREEN_3.png',
+    'parallel/PARALLEL_SCREEN_1.jpg',
+    'parallel/PARALLEL_SCREEN_2.jpg',
+    'parallel/PARALLEL_SCREEN_3.jpg',
 
     'pfproto/gross.gif',
 
