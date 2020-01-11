@@ -68,7 +68,7 @@ function loadContent(work){
     dnode.appendChild(deet);
   }
   //LINK//
-  var lnode = wnode.querySelectorAll(".p_details");
+  var lnode = wnode.querySelectorAll(".p_details").item(1).content.querySelector(".p_detail");
   if (work.link.show != "true")
   {
     lnode.style.display = "hidden";
