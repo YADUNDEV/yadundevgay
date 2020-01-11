@@ -59,7 +59,7 @@ function loadContent(work){
   wnode.querySelector(".w_gitem1").firstElementChild.setAttribute("src",work.video);
   wnode.querySelector(".w_gitem2").textContent = work.description;
   //DETAILS//
-  var dnode = wnode.querySelector(".p_details");
+  var dnode = wnode.querySelectorAll(".p_details").item(0);
 
   for (var o = 0; o < work.details.length;o++){
     var deet = document.importNode(temps.item(0).content.querySelector("div"),true);
@@ -68,7 +68,7 @@ function loadContent(work){
     dnode.appendChild(deet);
   }
   //LINK//
-  var lnode = wnode.querySelectorAll(".p_details").item(1).content.querySelector(".p_detail");
+  var lnode = wnode.querySelectorAll(".p_details").item(1).content.firstElementChild;
   if (work.link.show != "true")
   {
     lnode.style.display = "hidden";
