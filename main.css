@@ -260,12 +260,11 @@ body
 .accordion
 {
     background-color: var(--cBrown2);
-    font: 3.6em 'Poiret One';
+    font: 3vmax 'Poiret One';
 		color:var(--cBeige3);
     cursor: pointer;
     padding: 4%;
     width: 100%;
-		height: 170px;
     text-align: left;
     border: none;
     outline: none;
@@ -286,7 +285,9 @@ body
 }
 .w_title
 {
-
+	max-height: 50%;
+	max-width: 100%;
+	overflow-x:visible;
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover
@@ -344,7 +345,6 @@ body
     padding: 0  2%;
 
     background-color: var(--cBrown3);
-
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out, padding 0.4s ease-out;
