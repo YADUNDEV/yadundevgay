@@ -242,6 +242,8 @@ body
 	flex-direction: column;
   flex: 1 1 auto;
 	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
 }
 .works-content-iFrame-wrapper
 {position: relative;}
@@ -251,7 +253,8 @@ body
 		border: none;
 		width: 1px;
 		min-width: 100%;
-		min-height: 100px;
+		min-height: 13vh;
+		max-height:20vh;
 		padding: 0 0;
 		margin: 0%;
 }
@@ -260,22 +263,30 @@ body
 .accordion
 {
     background-color: var(--cBrown2);
-    font: 3vmax 'Poiret One';
+    font: 2.25vw 'Poiret One';
 		color:var(--cBeige3);
     cursor: pointer;
-    padding: 4%;
+    padding: 16px;
     width: 100%;
     text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
+		height: 128px;
+		min-height: 13vh;
+		max-height: 20vh;
 
-
+		display:flex;
+		justify-content: space-between;
+		align-content:space-between;
+		flex-direction: row;
+		align-items: center;
 }
 .b_flex
 {
 	text-shadow: 0vmax .4vmax .4vmax var(--cBlack),0vmax .4vmax .6vmax var(--cBlack);
 	width:90%;
+	height:100%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -285,19 +296,21 @@ body
 }
 .w_title
 {
-	max-height: 50%;
 	max-width: 100%;
 	overflow-x:visible;
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover
 {
-	padding: 8%;
-	padding-right: 4%;
+	padding: 32px;
+	padding-right: 16px;
     background-color: var(--cBeige3);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
+	height: 160px;
+	min-height: 13vh;
+	max-height: 20vh;
 }
 #gravitymasters.active, #gravitymasters.accordion:hover
 {background-image: url("works/gravitymasters/thumbnail.gif");}
@@ -354,21 +367,20 @@ body
 	padding-bottom: 13%;
 	transition: padding 0.4s ease-out;
 }
-.accordion:after
+.accordion p:after
 {
-
 	position:relative;
   content: '\2B9F';
 	text-shadow: 0vmax .2vmax .2vmax var(--cBlack);
   font-size: 3vmax;
   color: var(--cBeige3);
   float: right;
-  margin-left: 1vmax;
-	top: -2.5vmax;
+  margin-left: 1vw;
+	/*bottom:8vh;*/
 	transition: 0.2s ease-out;
 }
 
-.active:after
+.active p:after
 {
 	transform:rotate(180deg);
 	text-shadow: 0vmax -.2vmax .2vmax var(--cBlack);
