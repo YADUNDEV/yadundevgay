@@ -3,7 +3,7 @@
   "title" : "Juice",
   "date":"2017",
   "video":"https://www.youtube.com/embed/DXlXF-J4pnU",
-  "description":"A physics-based puzzle game prototype.",
+  "description":"A physics-based puzzle game prototype. Originally made for a LUDUM game jam, I was unable to finish the project on time. This was expected, as it was my first attempt at game development in Unity. I learned a lot by imposing such a strict deadline on myself.",
   "details":[
     "Engine: ",
     "Platforms: ",
@@ -12,7 +12,7 @@
   "detailsContent":[
     "Unity 5",
     "PC",
-    "Independent",
+    "Independent"
   ],
   "link":{
     "show":"false",
@@ -20,6 +20,7 @@
     "url":""
   },
   "images":[
+    "juice/OOS_JUICE.jpg"
   ],
   "embeds":[
   ]
