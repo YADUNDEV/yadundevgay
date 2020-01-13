@@ -24,8 +24,8 @@ function generateImages()
     'fromform/thumbnail.gif',
 
     'golf/ss1.gif',
-    'golf/ss2.jpg',
-    'golf/ss3.gif',
+    'golf/ss2.gif',
+    'golf/ss3.jpg',
 
     'gravitymasters/thumbnail.gif',
 
