@@ -32,7 +32,7 @@ function loadJSON(callback, path){
   xobj.send(null);
 }
 function loadContent(work){
-  var wblock = document.getElementsByTagName("template").item(0).content.querySelector("div");
+  var wblock = document.getElementsByTagName("template").item(0).content.querySelector("article");
 
   var wnode = document.importNode(wblock,true);
   var temps = wnode.querySelectorAll('template');
