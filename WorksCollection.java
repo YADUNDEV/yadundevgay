@@ -72,6 +72,8 @@ function loadContent(work){
   if (work.link.show != "true")
   {
     lnode.style.display = "hidden";
+    lnode.lastElementChild.firstElementChild.style.display="hidden";
+    lnode.lastElementChild.firstElementChild.firstElementChild.style.display="hidden";
   }
   else
   {
