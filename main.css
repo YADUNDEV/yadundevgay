@@ -347,6 +347,8 @@ body
 {background-image: url("works/robocatouya/robocat.gif");}
 #skelebuddy.active, #skelebuddy.accordion:hover
 {background-image: url("works/skelebuddy/sbthumbgj.gif");}
+#patriot.active, #patriot.accordion:hover
+{background-image: url("works/patriot/ss1.gif");}
 #safe.active, #safe.accordion:hover
 {background-position: bottom;background-image: url("works/safe/corpse.png");}
 

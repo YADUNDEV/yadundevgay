@@ -7,7 +7,7 @@ function init() {
 
   var wnode = document.importNode(wblock,true);
   alert(wnode.querySelectorAll('template').length);*/
-  for (var i = 18; i >= 0; i--){
+  for (var i = 19; i >= 0; i--){
     loadJSON(
       function(response)
       {
