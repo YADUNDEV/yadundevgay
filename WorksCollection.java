@@ -71,9 +71,8 @@ function loadContent(work){
   var lnode = wnode.getElementsByClassName("p_details")[1].getElementsByClassName("p_detail")[0];
   if (work.link.show != "true")
   {
-    lnode.style.display = "hidden";
-    lnode.lastElementChild.firstElementChild.style.display="hidden";
-    lnode.lastElementChild.firstElementChild.firstElementChild.style.display="hidden";
+    lnode.setAttribute("width","0px");
+    lnode.setAttribute("height","0px");
   }
   else
   {
