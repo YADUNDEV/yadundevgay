@@ -1,8 +1,32 @@
-
+function loadJSON(callback, path){
+  var xobj = new XMLHttpRequest();
+  xobj.overrideMimeType("application/json");
+  xobj.open('GET',path,true);
+  xobj.onreadystatechange = function()
+  {
+    if (xobj.readyState == 4 && xobj.status == "200")
+    {
+      callback(xobj.responseText);
+    }
+  };
+  xobj.send(null);
+}
 
 function generateImages()
 {
-  var files =
+  var _photos = [];
+  for (var i = 19; i >= 0; i--){
+    loadJSON(
+      function(response)
+      {
+        var wd = JSON.parse(response);
+        for (var o = 0; o < wd.images.length;o++){
+          _photos.push(wd.images[o]);
+        }
+      },'workdata/preview'+i.toString()+'.json'
+    );
+  }
+  /*var files =
   [
     'aurora/ANScreenShot.jpg',
 
@@ -55,14 +79,14 @@ function generateImages()
     'sputnik/nasa.gif',
     'sputnik/sewers.gif',
     'sputnik/title.gif'
-  ];
+  ];*/
   var imgs = document.getElementsByClassName("h-img-i");
   var filename = (window.location.pathname).substring(1,window.location.pathname.length-9)+"works/";
   var num = 0;
   for (var i = 0; i < imgs.length;i++)
   {
-    num = Math.floor(Math.random()*(files.length-1));
-    imgs[i].src = filename+files[num];
+    num = Math.floor(Math.random()*(_photos.length-1));
+    imgs[i].src = filename+_photos.pop(num);
     imgs[i].alt = num.toString();
   }
 }
