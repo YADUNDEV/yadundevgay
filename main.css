@@ -738,7 +738,7 @@ body
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-content: flex-start;
-	align-items: center;
+	align-items: flex-start;
 
   background-color: var(--cBrown2);
   padding: 0;
