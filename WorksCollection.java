@@ -71,6 +71,7 @@ function loadContent(work){
   var lnode = wnode.getElementsByClassName("p_details")[1].getElementsByClassName("p_detail")[0];
   if (work.link.show != "true")
   {
+    lnode.firstElementChild.style.display = "none";
     lnode.lastElementChild.firstElementChild.style.display = "none";
     lnode.lastElementChild.firstElementChild.firstElementChild.style.display = "none";
   }

@@ -9,10 +9,12 @@ for (i = 0; i < acc.length; i++)
     if (panel.style.maxHeight)
     {
       panel.style.maxHeight = null;
+      panel.style.paddingBottom = '13%';
     }
     else
     {
       panel.style.maxHeight = panel.scrollHeight + "px";
+      panel.style.paddingBottom = '0%';
     }
   });
 }
