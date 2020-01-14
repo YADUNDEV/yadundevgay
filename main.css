@@ -356,7 +356,7 @@ body
 
 .panel
 {
-    padding: 0  2%;
+    /*padding: 0  2%;*/
 
     background-color: var(--cBrown3);
     max-height: 0;
@@ -392,11 +392,11 @@ body
 {
 	background-color: rgba(0,0,0,0);
 	grid-area: top;
-	display: flex;
 	width:100%;
+	/*display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	align-items: bottom;
+	align-items: bottom;*/
 	position: relative;
 }
 .w_gitem2 {
