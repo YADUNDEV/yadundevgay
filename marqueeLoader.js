@@ -11,6 +11,7 @@ function loadJSON(callback, path){
   };
   xobj.send(null);
 }
+var loaded = 0;
 var _photos = [];
 function generateImages()
 {
@@ -25,7 +26,8 @@ function generateImages()
             _photos.push(wd.images[o]);
           }
         }
-        if (i==0){
+        loaded +=1;
+        if (loaded == 19){
           AssignImgs();
         }
       },'workdata/preview'+i.toString()+'.json'
