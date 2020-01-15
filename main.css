@@ -392,11 +392,11 @@ body
 {
 	background-color: rgba(0,0,0,0);
 	grid-area: top;
-	width:100%;
-	/*display: flex;
+	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	align-items: bottom;*/
+	align-items: bottom;
+	width: 100%;
 	position: relative;
 }
 .w_gitem2 {
@@ -444,7 +444,7 @@ body
   padding: 0;
   max-width: 100%;
   width:100%;
-  justify-content: left;
+  /*justify-content: left;*/
   align-content: space-between;
   font-size: 1rem;
 }
@@ -452,8 +452,8 @@ body
 {
   background-color: rgba(0, 0, 0, 0.8);
   text-align: left;
-  padding: 0 0;
-  margin:1%;
+  /*padding: 0 0;*/
+  margin:1% 1% 1% 1%;
 }
 .w_grid img
 {
@@ -487,14 +487,14 @@ body
 }
 .w_gitem5 iframe
 {
-	width: 50%;
-	height: 100%
+	/*width: 50%;
+	height: 100%*/
 }
-.w_gitem1, .w_gitem1 iframe
+/*.w_gitem1, .w_gitem1 iframe
 {
 	width: 100%;
 	height: auto;
-}
+}*/
 .p_detail
 {
 	margin: .5em;
