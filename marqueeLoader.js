@@ -16,7 +16,7 @@ var imgs = [];
 var loaded = 0;
 function generateImages()
 {
-  imgs = document.getElementsByClassName("h-img-i");
+
   for (var i = 19; i >= 0; i--){
     loadJSON(
       function(response)
@@ -95,6 +95,7 @@ function generateImages()
 }
 function AssignImgs()
 {
+  imgs = document.getElementsByClassName("h-img-i");
   var filename = "works/";/*(window.location.pathname).substring(1,window.location.pathname.length-9)+"works/"*/
   var num = 0;
   for (var i = 0; i < imgs.length;i++)

@@ -458,7 +458,7 @@ body
 .w_grid img
 {
 	max-width: 100%;
-}/*
+}
 .w_grid iframe
 {
 	width:100%;
@@ -469,7 +469,7 @@ body
   align-items: center;
   position: relative;
 
-}*/
+}
 .w_gitem4 a, .w_gitem5 a, .w_gitem1 a
 {
 	margin:1%;
