@@ -1,7 +1,7 @@
 function loadJSON(callback, path){
   var xobj = new XMLHttpRequest();
   xobj.overrideMimeType("application/json");
-  xobj.open('GET',path,true);
+  xobj.open('GET',path,false);
   xobj.onreadystatechange = function()
   {
     if (xobj.readyState == 4 && xobj.status == "200")
