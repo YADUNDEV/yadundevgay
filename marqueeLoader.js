@@ -1,7 +1,7 @@
 function loadJSON(callback, path){
   var xobj = new XMLHttpRequest();
   xobj.overrideMimeType("application/json");
-  xobj.open('GET',path,false);
+  xobj.open('GET',path,true);
   xobj.onreadystatechange = function()
   {
     if (xobj.readyState == 4 && xobj.status == "200")
@@ -11,10 +11,12 @@ function loadJSON(callback, path){
   };
   xobj.send(null);
 }
-
+var _photos = [];
+var imgs = [];
+var loaded = 0;
 function generateImages()
 {
-  var _photos = [];
+  imgs = document.getElementsByClassName("h-img-i");
   for (var i = 19; i >= 0; i--){
     loadJSON(
       function(response)
@@ -24,6 +26,11 @@ function generateImages()
         {
         for (var o = 0; o < wd.images.length;o++){
           _photos.push(wd.images[o]);
+        }
+        loaded += 1;
+        if (loaded == 19)
+        {
+          AssignImgs();
         }
       }
       },'workdata/preview'+i.toString()+'.json'
@@ -83,7 +90,11 @@ function generateImages()
     'sputnik/sewers.gif',
     'sputnik/title.gif'
   ];*/
-  var imgs = document.getElementsByClassName("h-img-i");
+
+
+}
+function AssignImgs()
+{
   var filename = "works/";/*(window.location.pathname).substring(1,window.location.pathname.length-9)+"works/"*/
   var num = 0;
   for (var i = 0; i < imgs.length;i++)

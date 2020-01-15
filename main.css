@@ -153,7 +153,7 @@
 }
  .radd input:checked
 {
-	background-color: #var(--cBrown2);
+	background-color: var(--cBrown2);
 	color: var(--cWhite);
 }
  .radd:after
@@ -238,7 +238,7 @@ body
 	height: 160vh;
 	top: 0%;
 
-	display:flex
+	display:flex;
 	flex-direction: column;
   flex: 1 1 auto;
 	flex-wrap: nowrap;
@@ -356,7 +356,7 @@ body
 
 .panel
 {
-    /*padding: 0  2%;*/
+    padding-right: 2%;
 
     background-color: var(--cBrown3);
     max-height: 0;
@@ -703,7 +703,7 @@ body
 {
 	text-align: left;
 	vertical-align: top;
-	indent: 5%;
+	text-indent: 5%;
 	font: 2rem 'Assistant';
 	color: var(--cBeige2);
 	padding: 4%;
@@ -768,10 +768,10 @@ body
 {
 	max-width: 30vw;
 }
-.home-body
+/*.home-body
 {
-	/*grid-area: R;*/
-}
+	grid-area: R;
+}*/
 .h-marquee
 {
  overflow: hidden;
@@ -914,6 +914,6 @@ body
 	font: 3.6px 'Poiret One';
 	text-align: center;
 	color:var(--cBeige3);
-	width: 100%
+	width: 100%;
 	height: 200px;
 }
