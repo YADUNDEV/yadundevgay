@@ -1,7 +1,7 @@
 {
   "buttonid" : "skelebuddy",
   "title" : "SKELEBUDDY",
-  "date":"2016",
+  "date":"2015",
   "video":"https://www.youtube.com/embed/5V_y2xPgGKU",
   "description":"An independently developed experimental first-person maze skeletal pet simulator distinctive for its unique visual style and weird-fiction narrative.",
   "details":[
@@ -20,6 +20,9 @@
     "url":"https://yadunded.itch.io/skelebuddy"
   },
   "images":[
+    "skelebuddy/ss1.jpg",
+    "skelebuddy/ss2.jpg",
+    "skelebuddy/ss3.jpg"
   ],
   "embeds":[
     {

@@ -20,9 +20,12 @@ function generateImages()
       function(response)
       {
         var wd = JSON.parse(response);
+        if (wd.images.length > 0)
+        {
         for (var o = 0; o < wd.images.length;o++){
           _photos.push(wd.images[o]);
         }
+      }
       },'workdata/preview'+i.toString()+'.json'
     );
   }
@@ -81,7 +84,7 @@ function generateImages()
     'sputnik/title.gif'
   ];*/
   var imgs = document.getElementsByClassName("h-img-i");
-  var filename = (window.location.pathname).substring(1,window.location.pathname.length-9)+"works/";
+  var filename = "works/";/*(window.location.pathname).substring(1,window.location.pathname.length-9)+"works/"*/
   var num = 0;
   for (var i = 0; i < imgs.length;i++)
   {
