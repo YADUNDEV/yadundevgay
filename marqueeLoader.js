@@ -12,11 +12,8 @@ function loadJSON(callback, path){
   xobj.send(null);
 }
 var _photos = [];
-var imgs = [];
-var loaded = 0;
 function generateImages()
 {
-
   for (var i = 19; i >= 0; i--){
     loadJSON(
       function(response)
@@ -24,15 +21,13 @@ function generateImages()
         var wd = JSON.parse(response);
         if (wd.images.length > 0)
         {
-        for (var o = 0; o < wd.images.length;o++){
-          _photos.push(wd.images[o]);
+          for (var o = 0; o < wd.images.length;o++){
+            _photos.push(wd.images[o]);
+          }
         }
-        loaded += 1;
-        if (loaded == 19)
-        {
+        if (i==0){
           AssignImgs();
         }
-      }
       },'workdata/preview'+i.toString()+'.json'
     );
   }
@@ -90,19 +85,17 @@ function generateImages()
     'sputnik/sewers.gif',
     'sputnik/title.gif'
   ];*/
-
-
 }
 function AssignImgs()
 {
-  imgs = document.getElementsByClassName("h-img-i");
+  var imgs = document.getElementsByClassName("h-img-i");
   var filename = "works/";/*(window.location.pathname).substring(1,window.location.pathname.length-9)+"works/"*/
   var num = 0;
-  for (var i = 0; i < imgs.length;i++)
+  for (var p = 0; p < imgs.length;p++)
   {
     num = Math.floor(Math.random()*(_photos.length-1));
-    imgs[i].src = filename+_photos.pop(num);
-    imgs[i].alt = num.toString();
+    imgs[p].src = filename+_photos.pop(num);
+    imgs[p].alt = num.toString();
   }
 }
 
