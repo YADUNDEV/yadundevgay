@@ -256,6 +256,12 @@ body
 		/*min-height: 13vh;*/
 		padding: 0 0;
 		margin: 0%;
+		display:flex;
+		flex-direction: column;
+		flex: 1 1 auto;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		align-items: flex-start;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
