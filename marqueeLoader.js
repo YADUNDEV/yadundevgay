@@ -33,60 +33,6 @@ function generateImages()
       },'workdata/preview'+i.toString()+'.json'
     );
   }
-  /*var files =
-  [
-    'aurora/ANScreenShot.jpg',
-
-    'backfire/gameplay.gif',
-    'backfire/title.gif',
-
-    'bonebois/bb1.gif',
-    'bonebois/bbtitle.gif',
-    'bonebois/fire.gif',
-    'bonebois/gameplay.gif',
-
-    'ccproto/sliders.gif',
-
-    'echoes/chase.gif',
-    'echoes/door.gif',
-    'echoes/respite.gif',
-    'echoes/title.gif',
-
-    'fromform/thumbnail.gif',
-
-    'golf/ss1.gif',
-    'golf/ss2.gif',
-    'golf/ss3.jpg',
-
-    'gravitymasters/thumbnail.gif',
-
-    'hope/hope.gif',
-    'juice/OOS_JUICE.png',
-
-    'mcp/mcthumgj.gif',
-    'mcp/mcscreen1.png',
-
-    'parallel/PARALLEL_SCREEN_1.jpg',
-    'parallel/PARALLEL_SCREEN_2.jpg',
-    'parallel/PARALLEL_SCREEN_3.jpg',
-
-    'pfproto/gross.gif',
-
-    'robocatouya/rbouyathumb.PNG',
-    'robocatouya/robocat.gif',
-    'robocatouya/SS3.png',
-    'robocatouya/SS7.png',
-
-    'safe/corpse.png',
-    'skelebuddy/sbthumb.gif',
-
-    'socc/looper.gif',
-    'spinnyships/gyro9.gif',
-
-    'sputnik/nasa.gif',
-    'sputnik/sewers.gif',
-    'sputnik/title.gif'
-  ];*/
 }
 function AssignImgs()
 {
