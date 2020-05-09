@@ -1,0 +1,98 @@
+[
+  {
+    "key": "bgFire",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"uiFire0_0",
+        "key":"uiAtlas"
+      },
+      {
+        "frame":"uiFire0_1",
+        "key":"uiAtlas"
+      },
+	  {
+        "frame":"uiFire0_2",
+        "key":"uiAtlas"
+      },
+	  {
+        "frame":"uiFire0_3",
+        "key":"uiAtlas"
+      }
+    ]
+  },
+  {
+    "key": "uiFightPrompt",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"uiFightPrompt0_0",
+        "key":"uiAtlas"
+      },
+      {
+        "frame":"uiFightPrompt0_1",
+        "key":"uiAtlas"
+      }
+    ]
+  },
+  {
+    "key": "uiArrowNormal",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"uiArrowNormal1",
+        "key":"uiAtlas"
+      }
+    ]
+  },
+  {
+    "key": "uiArrowHighlight",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"uiArrowHighlight0",
+        "key":"uiAtlas"
+      },
+	  {
+        "frame":"uiArrowHighlight1",
+        "key":"uiAtlas"
+      }
+    ]
+  },
+  {
+    "key": "uiArrowPressed",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"uiArrowPressed0",
+        "key":"uiAtlas"
+      }
+    ]
+  },
+  {
+    "key": "uiButtonNormal",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"uiButtonNormal0",
+        "key":"uiAtlas"
+      }
+    ]
+  },
+  {
+    "key": "uiButtonHighlight",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"uiButtonHIghlight0",
+        "key":"uiAtlas"
+      },
+	  {
+        "frame":"uiButtonHIghlight1",
+        "key":"uiAtlas"
+      }
+    ]
+  },
+  {
+    "key": "uiButtonDisabled",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"uiButtonDisabled1",
+        "key":"uiAtlas"
+      }
+    ]
+  }
+]

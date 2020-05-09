@@ -1,0 +1,830 @@
+{
+  "textures": [{
+    "image": "fx.png",
+    "frames": [
+      {
+        "filename": "fxangle_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 912,
+          "y": 582,
+          "w": 64,
+          "h": 64
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 64
+        }
+      },
+      {
+        "filename": "fxangle_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 782,
+          "y": 60,
+          "w": 64,
+          "h": 64
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 64
+        }
+      },
+      {
+        "filename": "fxangle_2",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 912,
+          "y": 516,
+          "w": 64,
+          "h": 64
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 64
+        }
+      },
+      {
+        "filename": "fxangle_3",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 912,
+          "y": 450,
+          "w": 64,
+          "h": 64
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 64
+        }
+      },
+      {
+        "filename": "fxangle_4",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 912,
+          "y": 384,
+          "w": 64,
+          "h": 64
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 64
+        }
+      },
+      {
+        "filename": "fxangle_5",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 912,
+          "y": 318,
+          "w": 64,
+          "h": 64
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 64
+        }
+      },
+      {
+        "filename": "fxangle_6",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 912,
+          "y": 252,
+          "w": 64,
+          "h": 64
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 64
+        }
+      },
+      {
+        "filename": "fxbounce_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2,
+          "y": 2,
+          "w": 128,
+          "h": 128
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 128
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        }
+      },
+      {
+        "filename": "fxbounce_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 652,
+          "y": 518,
+          "w": 128,
+          "h": 128
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 128
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        }
+      },
+      {
+        "filename": "fxbounce_2",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 132,
+          "y": 2,
+          "w": 128,
+          "h": 128
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 128
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        }
+      },
+      {
+        "filename": "fxbounce_3",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 652,
+          "y": 388,
+          "w": 128,
+          "h": 128
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 128
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        }
+      },
+      {
+        "filename": "fxbounce_4",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 782,
+          "y": 518,
+          "w": 128,
+          "h": 128
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 128
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        }
+      },
+      {
+        "filename": "fxbounce_5",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 262,
+          "y": 2,
+          "w": 128,
+          "h": 128
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 128
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        }
+      },
+      {
+        "filename": "fxdash_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 652,
+          "y": 26,
+          "w": 64,
+          "h": 32
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 32
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 32
+        }
+      },
+      {
+        "filename": "fxdash_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 912,
+          "y": 218,
+          "w": 64,
+          "h": 32
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 32
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 32
+        }
+      },
+      {
+        "filename": "fxdash_2",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 718,
+          "y": 26,
+          "w": 64,
+          "h": 32
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 32
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 32
+        }
+      },
+      {
+        "filename": "fxdash_3",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 912,
+          "y": 184,
+          "w": 64,
+          "h": 32
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 32
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 32
+        }
+      },
+      {
+        "filename": "fxdash_4",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 912,
+          "y": 150,
+          "w": 64,
+          "h": 32
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 32
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 32
+        }
+      },
+      {
+        "filename": "fxdash_5",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 848,
+          "y": 92,
+          "w": 64,
+          "h": 32
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 32
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 32
+        }
+      },
+      {
+        "filename": "fxdeath_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2,
+          "y": 390,
+          "w": 128,
+          "h": 256
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 256
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 256
+        }
+      },
+      {
+        "filename": "fxdeath_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2,
+          "y": 132,
+          "w": 128,
+          "h": 256
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 256
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 256
+        }
+      },
+      {
+        "filename": "fxdeath_2",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 132,
+          "y": 390,
+          "w": 128,
+          "h": 256
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 256
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 256
+        }
+      },
+      {
+        "filename": "fxdeath_3",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 132,
+          "y": 132,
+          "w": 128,
+          "h": 256
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 256
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 256
+        }
+      },
+      {
+        "filename": "fxdeath_4",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 262,
+          "y": 390,
+          "w": 128,
+          "h": 256
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 256
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 256
+        }
+      },
+      {
+        "filename": "fxdeath_5",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 262,
+          "y": 132,
+          "w": 128,
+          "h": 256
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 256
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 256
+        }
+      },
+      {
+        "filename": "fxdeath_6",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 392,
+          "y": 390,
+          "w": 128,
+          "h": 256
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 256
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 256
+        }
+      },
+      {
+        "filename": "fxdeath_7",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 392,
+          "y": 132,
+          "w": 128,
+          "h": 256
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 256
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 256
+        }
+      },
+      {
+        "filename": "fxdeath_8",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 522,
+          "y": 390,
+          "w": 128,
+          "h": 256
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 256
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 256
+        }
+      },
+      {
+        "filename": "fxdeath_9",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 522,
+          "y": 132,
+          "w": 128,
+          "h": 256
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 256
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 256
+        }
+      },
+      {
+        "filename": "fxhit_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 652,
+          "y": 258,
+          "w": 128,
+          "h": 128
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 128
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        }
+      },
+      {
+        "filename": "fxhit_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 782,
+          "y": 388,
+          "w": 128,
+          "h": 128
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 128
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        }
+      },
+      {
+        "filename": "fxhit_2",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 392,
+          "y": 2,
+          "w": 128,
+          "h": 128
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 128
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        }
+      },
+      {
+        "filename": "fxhit_3",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 782,
+          "y": 258,
+          "w": 128,
+          "h": 128
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 128
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        }
+      },
+      {
+        "filename": "fxhit_4",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 522,
+          "y": 2,
+          "w": 128,
+          "h": 128
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 128
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 128
+        }
+      },
+      {
+        "filename": "fxland_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 652,
+          "y": 192,
+          "w": 128,
+          "h": 64
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 64
+        }
+      },
+      {
+        "filename": "fxland_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 652,
+          "y": 126,
+          "w": 128,
+          "h": 64
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 64
+        }
+      },
+      {
+        "filename": "fxland_2",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 782,
+          "y": 192,
+          "w": 128,
+          "h": 64
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 64
+        }
+      },
+      {
+        "filename": "fxland_3",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 652,
+          "y": 60,
+          "w": 128,
+          "h": 64
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 64
+        }
+      },
+      {
+        "filename": "fxland_4",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 782,
+          "y": 126,
+          "w": 128,
+          "h": 64
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 64
+        }
+      }
+    ]
+  }],
+  "meta": {
+    "app": "Phaser Editor - Atlas Generator",
+    "version": "2"
+  }
+}

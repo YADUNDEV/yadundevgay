@@ -1,0 +1,1451 @@
+{
+    "frames": [
+        {
+            "filename": "spatkaadstart0_0",
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaadstart0_1",
+            "frame": {
+                "x": 200,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaadactive0_0",
+            "frame": {
+                "x": 400,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaadactive0_1",
+            "frame": {
+                "x": 600,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaadactive0_2",
+            "frame": {
+                "x": 800,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaadactive0_3",
+            "frame": {
+                "x": 1000,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaadactive0_4",
+            "frame": {
+                "x": 1200,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaadactive0_5",
+            "frame": {
+                "x": 1400,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaadactive0_6",
+            "frame": {
+                "x": 1600,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaadactive0_7",
+            "frame": {
+                "x": 1800,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaadactive0_8",
+            "frame": {
+                "x": 2000,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaadactive0_9",
+            "frame": {
+                "x": 2200,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaadactive0_10",
+            "frame": {
+                "x": 2400,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaadactive0_11",
+            "frame": {
+                "x": 2600,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaadactive0_12",
+            "frame": {
+                "x": 0,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaadactive0_13",
+            "frame": {
+                "x": 200,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaadactive0_14",
+            "frame": {
+                "x": 400,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaadend0_0",
+            "frame": {
+                "x": 600,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaadend0_1",
+            "frame": {
+                "x": 800,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaafstart0_0",
+            "frame": {
+                "x": 1000,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaafstart0_1",
+            "frame": {
+                "x": 1200,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaafactive0_0",
+            "frame": {
+                "x": 1400,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaafactive0_1",
+            "frame": {
+                "x": 1600,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaafend0_0",
+            "frame": {
+                "x": 1800,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaafend0_1",
+            "frame": {
+                "x": 2000,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaaustart0_0",
+            "frame": {
+                "x": 2200,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaaustart0_1",
+            "frame": {
+                "x": 2400,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaauactive0_0",
+            "frame": {
+                "x": 2600,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaauactive0_1",
+            "frame": {
+                "x": 0,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaauactive0_2",
+            "frame": {
+                "x": 200,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaauactive0_3",
+            "frame": {
+                "x": 400,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaauactive0_4",
+            "frame": {
+                "x": 600,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaauactive0_5",
+            "frame": {
+                "x": 800,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaauactive0_6",
+            "frame": {
+                "x": 1000,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaauactive0_7",
+            "frame": {
+                "x": 1200,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaauend0_0",
+            "frame": {
+                "x": 1400,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaauend0_1",
+            "frame": {
+                "x": 1600,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaauend0_2",
+            "frame": {
+                "x": 1800,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkaauend0_3",
+            "frame": {
+                "x": 2000,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkabfstart0_0",
+            "frame": {
+                "x": 2200,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkabfstart0_1",
+            "frame": {
+                "x": 2400,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkabfactive0_0",
+            "frame": {
+                "x": 2600,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkabfactive0_1",
+            "frame": {
+                "x": 0,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkabfend0_0",
+            "frame": {
+                "x": 200,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkabfend0_1",
+            "frame": {
+                "x": 400,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkabfend0_2",
+            "frame": {
+                "x": 600,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkabfend0_3",
+            "frame": {
+                "x": 800,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkabfend0_4",
+            "frame": {
+                "x": 1000,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkabfend0_5",
+            "frame": {
+                "x": 1200,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkabfend0_6",
+            "frame": {
+                "x": 1400,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkabfend0_7",
+            "frame": {
+                "x": 1600,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgadstart0_0",
+            "frame": {
+                "x": 1800,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgadstart0_1",
+            "frame": {
+                "x": 2000,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgadactive0_0",
+            "frame": {
+                "x": 2200,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgadactive0_1",
+            "frame": {
+                "x": 2400,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgadactive0_2",
+            "frame": {
+                "x": 2600,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgadactive0_3",
+            "frame": {
+                "x": 0,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgadactive0_4",
+            "frame": {
+                "x": 200,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgadactive0_5",
+            "frame": {
+                "x": 400,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgadactive0_6",
+            "frame": {
+                "x": 600,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgadactive0_7",
+            "frame": {
+                "x": 800,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgadactive0_8",
+            "frame": {
+                "x": 1000,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgadactive0_9",
+            "frame": {
+                "x": 1200,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgadactive0_10",
+            "frame": {
+                "x": 1400,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgadend0_0",
+            "frame": {
+                "x": 1600,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgadend0_1",
+            "frame": {
+                "x": 1800,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgadend0_2",
+            "frame": {
+                "x": 2000,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgadend0_3",
+            "frame": {
+                "x": 2200,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgafstart0_0",
+            "frame": {
+                "x": 2400,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgafstart0_1",
+            "frame": {
+                "x": 2600,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgafactive0_0",
+            "frame": {
+                "x": 0,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgafactive0_1",
+            "frame": {
+                "x": 200,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgafactive0_2",
+            "frame": {
+                "x": 400,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgafactive0_3",
+            "frame": {
+                "x": 600,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgafactive0_4",
+            "frame": {
+                "x": 800,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgafactive0_5",
+            "frame": {
+                "x": 1000,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgafactive0_6",
+            "frame": {
+                "x": 1200,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgafend0_0",
+            "frame": {
+                "x": 1400,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgafend0_1",
+            "frame": {
+                "x": 1600,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgaustart0_0",
+            "frame": {
+                "x": 1800,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgaustart0_1",
+            "frame": {
+                "x": 2000,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgauactive0_0",
+            "frame": {
+                "x": 2200,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgauactive0_1",
+            "frame": {
+                "x": 2400,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgauend0_0",
+            "frame": {
+                "x": 2600,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgauend0_1",
+            "frame": {
+                "x": 0,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgbfstart0_0",
+            "frame": {
+                "x": 200,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgbfstart0_1",
+            "frame": {
+                "x": 400,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgbfactive0_0",
+            "frame": {
+                "x": 600,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgbfactive0_1",
+            "frame": {
+                "x": 800,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgbfend0_0",
+            "frame": {
+                "x": 1000,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spatkgbfend0_1",
+            "frame": {
+                "x": 1200,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spdash0_0",
+            "frame": {
+                "x": 1400,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spdash0_1",
+            "frame": {
+                "x": 1600,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spfall0_0",
+            "frame": {
+                "x": 1800,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spfall0_1",
+            "frame": {
+                "x": 2000,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "sphurt0_0",
+            "frame": {
+                "x": 2200,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "sphurt0_1",
+            "frame": {
+                "x": 2400,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spidle0_0",
+            "frame": {
+                "x": 2600,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spidle0_1",
+            "frame": {
+                "x": 0,
+                "y": 1400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spjump0_0",
+            "frame": {
+                "x": 200,
+                "y": 1400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spjump0_1",
+            "frame": {
+                "x": 400,
+                "y": 1400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spsquat0_0",
+            "frame": {
+                "x": 600,
+                "y": 1400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spsquat0_1",
+            "frame": {
+                "x": 800,
+                "y": 1400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spthrowstart0_0",
+            "frame": {
+                "x": 1000,
+                "y": 1400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spthrowstart0_1",
+            "frame": {
+                "x": 1200,
+                "y": 1400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spthrowactive0_0",
+            "frame": {
+                "x": 1400,
+                "y": 1400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spthrowactive0_1",
+            "frame": {
+                "x": 1600,
+                "y": 1400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spturn0_0",
+            "frame": {
+                "x": 1800,
+                "y": 1400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spturn0_1",
+            "frame": {
+                "x": 2000,
+                "y": 1400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spwalk0_0",
+            "frame": {
+                "x": 2200,
+                "y": 1400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "spwalk0_1",
+            "frame": {
+                "x": 2400,
+                "y": 1400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Phaser3",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

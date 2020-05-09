@@ -1,0 +1,616 @@
+[
+  {
+    "key": "spIdle",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spidle0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spidle0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spTurn",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spturn0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spturn0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spDash",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spdash0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spdash0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spWalk",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spwalk0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spwalk0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spSquat",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spsquat0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spsquat0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spJump",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spjump0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spjump0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spFall",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spfall0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spfall0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spHurt",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"sphurt0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"sphurt0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spTHROWstart",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spthrowstart0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spthrowstart0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spTHROWend",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spthrowactive0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spthrowactive0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkGAUstart",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkgaustart0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgaustart0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkGAUactive",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkgauactive0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgauactive0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkGAUend",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkgauend0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgauend0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkGAFstart",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkgafstart0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgafstart0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkGAFactive",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkgafactive0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgafactive0_1",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgafactive0_2",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgafactive0_3",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgafactive0_4",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgafactive0_5",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgafactive0_6",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkGAFend",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkgafend0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgafend0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkGADstart",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkgadstart0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgadstart0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkGADactive",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkgadactive0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgadactive0_1",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgadactive0_2",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgadactive0_3",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgadactive0_4",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgadactive0_5",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgadactive0_6",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgadactive0_7",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgadactive0_8",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgadactive0_9",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgadactive0_10",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkGADend",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkgadend0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgadend0_1",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgadend0_2",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgadend0_3",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkAAUstart",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkaaustart0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaaustart0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkAAUactive",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkaauactive0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaauactive0_1",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaauactive0_2",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaauactive0_3",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaauactive0_4",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaauactive0_5",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaauactive0_6",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaauactive0_7",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkAAUend",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkaauend0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaauend0_1",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaauend0_2",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaauend0_3",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkAAFstart",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkaafstart0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaafstart0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkAAFactive",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkaafactive0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaafactive0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkAAFend",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkaafend0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaafend0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkAADstart",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkaadstart0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaadstart0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkAADactive",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkaadactive0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaadactive0_1",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaadactive0_2",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaadactive0_3",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaadactive0_4",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaadactive0_5",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaadactive0_6",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaadactive0_7",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaadactive0_8",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaadactive0_9",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaadactive0_10",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaadactive0_11",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaadactive0_12",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaadactive0_13",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaadactive0_14",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkAADend",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkaadend0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkaadend0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkGBFstart",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkgbfstart0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgbfstart0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkGBFactive",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkgbfactive0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgbfactive0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkGBFend",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkgbfend0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkgbfend0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkABFstart",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkabfstart0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkabfstart0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkABFactive",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkabfactive0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkabfactive0_1",
+        "key":"spAtlas"
+      }
+    ]
+  },
+  {
+    "key": "spAtkABFend",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"spatkabfend0_0",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkabfend0_1",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkabfend0_2",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkabfend0_3",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkabfend0_4",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkabfend0_5",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkabfend0_6",
+        "key":"spAtlas"
+      },
+      {
+        "frame":"spatkabfend0_7",
+        "key":"spAtlas"
+      }
+    ]
+  }
+]

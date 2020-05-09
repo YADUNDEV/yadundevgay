@@ -1,0 +1,2258 @@
+{
+  "textures": [{
+    "image": "pr.png",
+    "frames": [
+      {
+        "filename": "pratkaadactive0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2714,
+          "y": 2,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "pratkaadactive0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2966,
+          "y": 2,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "pratkaadend0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3218,
+          "y": 2,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "pratkaadend0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3470,
+          "y": 2,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "pratkaadstart0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3722,
+          "y": 2,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "pratkaadstart0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3974,
+          "y": 2,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "pratkgadactive0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 4226,
+          "y": 2,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "pratkgadactive0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 4478,
+          "y": 2,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "pratkgadactive0_2",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5328,
+          "y": 804,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "pratkgadactive0_3",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5328,
+          "y": 552,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "pratkgadactive0_4",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5334,
+          "y": 300,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "pratkgadactive0_5",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5334,
+          "y": 48,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "pratkgadend0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5580,
+          "y": 804,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "pratkgadend0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5580,
+          "y": 552,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "pratkgadstart0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5586,
+          "y": 300,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "pratkgadstart0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5586,
+          "y": 48,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "prdash0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5630,
+          "y": 2012,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "prdash0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5630,
+          "y": 1760,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "prfall0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5630,
+          "y": 1508,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "prfall0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5630,
+          "y": 1256,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "pridle0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5832,
+          "y": 1004,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "pridle0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5832,
+          "y": 752,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "prjump0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5838,
+          "y": 248,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "prjump0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5838,
+          "y": 500,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "prsquat0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5882,
+          "y": 1760,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "prsquat0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 6084,
+          "y": 2012,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "prthrowend0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5882,
+          "y": 1508,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "prthrowend0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5882,
+          "y": 1256,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "prthrowstart0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 6084,
+          "y": 1004,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "prthrowstart0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 6084,
+          "y": 752,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "prturn0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 6134,
+          "y": 1760,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "prturn0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 6134,
+          "y": 1508,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "prwalk0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 6134,
+          "y": 1256,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "prwalk0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 6090,
+          "y": 500,
+          "w": 250,
+          "h": 250
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 250
+        },
+        "sourceSize": {
+          "w": 250,
+          "h": 250
+        }
+      },
+      {
+        "filename": "pratkgauactive0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 4724,
+          "y": 1962,
+          "w": 300,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "filename": "pratkgauactive0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 4724,
+          "y": 1660,
+          "w": 300,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "filename": "pratkgauactive0_2",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 4724,
+          "y": 1358,
+          "w": 300,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "filename": "pratkgauactive0_3",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 4724,
+          "y": 1056,
+          "w": 300,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "filename": "pratkgauactive0_4",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 4724,
+          "y": 754,
+          "w": 300,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "filename": "pratkgauactive0_5",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 4724,
+          "y": 452,
+          "w": 300,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "filename": "pratkgauend0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 4730,
+          "y": 150,
+          "w": 300,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "filename": "pratkgauend0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5026,
+          "y": 1962,
+          "w": 300,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "filename": "pratkgaustart0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5026,
+          "y": 1660,
+          "w": 300,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "filename": "pratkgaustart0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5026,
+          "y": 1358,
+          "w": 300,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "filename": "pratkgbdactive0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5026,
+          "y": 1056,
+          "w": 300,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "filename": "pratkgbdactive0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5026,
+          "y": 754,
+          "w": 300,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "filename": "pratkgbdend0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5026,
+          "y": 452,
+          "w": 300,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "filename": "pratkgbdend0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5032,
+          "y": 150,
+          "w": 300,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "filename": "pratkgbdstart0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5328,
+          "y": 1962,
+          "w": 300,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "filename": "pratkgbdstart0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5328,
+          "y": 1660,
+          "w": 300,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "filename": "prhurt0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5328,
+          "y": 1358,
+          "w": 300,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "filename": "prhurt0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 5328,
+          "y": 1056,
+          "w": 300,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "filename": "pratkaafactive0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2714,
+          "y": 1862,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkaafactive0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2714,
+          "y": 1460,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkaafactive0_2",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2714,
+          "y": 1058,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkaafactive0_3",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2714,
+          "y": 656,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkaafactive0_4",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2714,
+          "y": 254,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkaafend0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3116,
+          "y": 1862,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkaafend0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3116,
+          "y": 1460,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkaafstart0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3116,
+          "y": 1058,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkaafstart0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3116,
+          "y": 656,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkaauactive0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3920,
+          "y": 1058,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkaauactive0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3920,
+          "y": 656,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkaauactive0_2",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3920,
+          "y": 254,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkaauactive0_3",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 4322,
+          "y": 1862,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkaauend0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 4322,
+          "y": 1460,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkaauend0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 4322,
+          "y": 1058,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkaaustart0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 4322,
+          "y": 656,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkaaustart0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 4322,
+          "y": 254,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkgafactive0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3116,
+          "y": 254,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkgafactive0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3518,
+          "y": 1862,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkgafactive0_2",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3518,
+          "y": 1460,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkgafactive0_3",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3518,
+          "y": 1058,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkgafend0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3518,
+          "y": 656,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkgafend0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3518,
+          "y": 254,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkgafstart0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3920,
+          "y": 1862,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkgafstart0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 3920,
+          "y": 1460,
+          "w": 400,
+          "h": 400
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 400,
+          "h": 400
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "pratkabdactive0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 1810,
+          "y": 4,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkabdactive0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2262,
+          "y": 1812,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkabdend0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2262,
+          "y": 1360,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkabdend0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2262,
+          "y": 908,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkabdstart0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2262,
+          "y": 456,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkabdstart0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2262,
+          "y": 4,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkabfactive0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 1358,
+          "y": 456,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkabfactive0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 1358,
+          "y": 4,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkabfend0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 1810,
+          "y": 1812,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkabfend0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 1810,
+          "y": 1360,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkabfstart0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 1810,
+          "y": 908,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkabfstart0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 1810,
+          "y": 456,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkabuactive0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 906,
+          "y": 908,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkabuactive0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 906,
+          "y": 456,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkabuend0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 906,
+          "y": 4,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkabuend0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 1358,
+          "y": 1812,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkabustart0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 1358,
+          "y": 1360,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkabustart0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 1358,
+          "y": 908,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkgbfactive0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 454,
+          "y": 1360,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkgbfactive0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 454,
+          "y": 908,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkgbfend0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 454,
+          "y": 456,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkgbfend0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 454,
+          "y": 4,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkgbfstart0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 906,
+          "y": 1812,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkgbfstart0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 906,
+          "y": 1360,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkgbuactive0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2,
+          "y": 1812,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkgbuactive0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2,
+          "y": 1360,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkgbuend0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2,
+          "y": 908,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkgbuend0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2,
+          "y": 456,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkgbustart0_0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2,
+          "y": 4,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      },
+      {
+        "filename": "pratkgbustart0_1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 454,
+          "y": 1812,
+          "w": 450,
+          "h": 450
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 450,
+          "h": 450
+        },
+        "sourceSize": {
+          "w": 450,
+          "h": 450
+        }
+      }
+    ]
+  }],
+  "meta": {
+    "app": "Phaser Editor - Atlas Generator",
+    "version": "2"
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "key": "crateIdle",
+    "frameRate": 15,
+    "frames": [
+      {
+          "frame": "crate_0",
+          "key": "crateAtlas"
+      },
+      {
+          "frame": "crate_1",
+          "key": "crateAtlas"
+      }
+    ]
+  },
+  {
+    "key": "crateDie",
+    "frameRate": 15,
+    "frames": [
+      {
+          "frame": "cratedie0_0",
+          "key": "crateAtlas"
+      },
+      {
+          "frame": "cratedie0_1",
+          "key": "crateAtlas"
+      },
+      {
+          "frame": "cratedie0_2",
+          "key": "crateAtlas"
+      },
+      {
+          "frame": "cratedie0_3",
+          "key": "crateAtlas"
+      },
+      {
+          "frame": "cratedie0_4",
+          "key": "crateAtlas"
+      },
+      {
+          "frame": "cratedie0_5",
+          "key": "crateAtlas"
+      },
+      {
+          "frame": "cratedie0_6",
+          "key": "crateAtlas"
+      },
+      {
+          "frame": "cratedie0_7",
+          "key": "crateAtlas"
+      },
+      {
+          "frame": "cratedie0_8",
+          "key": "crateAtlas"
+      },
+      {
+          "frame": "cratedie0_9",
+          "key": "crateAtlas"
+      }
+    ]
+  }
+]

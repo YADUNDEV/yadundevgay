@@ -1,0 +1,19 @@
+[
+  {
+    "key": "stgCitySmoke",
+    "frameRate": 8,"frames":[
+      {
+        "frame":"stgCitysmoke0",
+        "key":"stgCTAtlas"
+      },
+      {
+        "frame":"stgCitysmoke1",
+        "key":"stgCTAtlas"
+      },
+	  {
+        "frame":"stgCitysmoke2",
+        "key":"stgCTAtlas"
+      }
+    ]
+  }
+]

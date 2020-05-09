@@ -1,0 +1,74 @@
+{
+  "textures": [{
+    "image": "stgCity.png",
+    "frames": [
+      {
+        "filename": "stgCitysmoke0",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2,
+          "y": 606,
+          "w": 800,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 800,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 800,
+          "h": 300
+        }
+      },
+      {
+        "filename": "stgCitysmoke1",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2,
+          "y": 304,
+          "w": 800,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 800,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 800,
+          "h": 300
+        }
+      },
+      {
+        "filename": "stgCitysmoke2",
+        "trimmed": false,
+        "rotated": false,
+        "frame": {
+          "x": 2,
+          "y": 2,
+          "w": 800,
+          "h": 300
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 800,
+          "h": 300
+        },
+        "sourceSize": {
+          "w": 800,
+          "h": 300
+        }
+      }
+    ]
+  }],
+  "meta": {
+    "app": "Phaser Editor - Atlas Generator",
+    "version": "2"
+  }
+}

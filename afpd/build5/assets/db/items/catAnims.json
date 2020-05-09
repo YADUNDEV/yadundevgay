@@ -1,0 +1,75 @@
+[
+  {
+    "key": "catidle",
+    "frames":  [
+      {
+          "frame": "catidle_0",
+          "key": "catAtlas"
+      },
+      {
+          "frame": "catidle_1",
+          "key": "catAtlas"
+      }
+    ]
+  },
+  {
+    "key": "catwalk",
+    "frames":  [
+      {
+          "frame": "catwalk_0",
+          "key": "catAtlas"
+      },
+      {
+          "frame": "catwalk_1",
+          "key": "catAtlas"
+      },
+      {
+          "frame": "catwalk_2",
+          "key": "catAtlas"
+      },
+      {
+          "frame": "catwalk_3",
+          "key": "catAtlas"
+      }
+    ]
+  },
+  {
+    "key": "catheld",
+    "frames":  [
+      {
+          "frame": "catheld_0",
+          "key": "catAtlas"
+      },
+      {
+          "frame": "catheld_1",
+          "key": "catAtlas"
+      }
+    ]
+  },
+  {
+    "key": "catfall",
+    "frames":  [
+      {
+          "frame": "catfall_0",
+          "key": "catAtlas"
+      },
+      {
+          "frame": "catfall_1",
+          "key": "catAtlas"
+      }
+    ]
+  },
+  {
+    "key": "catfly",
+    "frames":  [
+      {
+          "frame": "catfly_0",
+          "key": "catAtlas"
+      },
+      {
+          "frame": "catfly_1",
+          "key": "catAtlas"
+      }
+    ]
+  }
+]

@@ -1,0 +1,305 @@
+{
+  "textures": [{
+    "image": "ui.png",
+    "frames": [
+      {
+        "filename": "uiArrowHighlight0",
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 3210,
+          "y": 540,
+          "w": 54,
+          "h": 62
+        },
+        "spriteSourceSize": {
+          "x": 2,
+          "y": 1,
+          "w": 54,
+          "h": 62
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 64
+        }
+      },
+      {
+        "filename": "uiArrowHighlight1",
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 3322,
+          "y": 541,
+          "w": 49,
+          "h": 61
+        },
+        "spriteSourceSize": {
+          "x": 2,
+          "y": 1,
+          "w": 49,
+          "h": 61
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 64
+        }
+      },
+      {
+        "filename": "uiArrowNormal1",
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 3373,
+          "y": 541,
+          "w": 49,
+          "h": 61
+        },
+        "spriteSourceSize": {
+          "x": 2,
+          "y": 1,
+          "w": 49,
+          "h": 61
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 64
+        }
+      },
+      {
+        "filename": "uiArrowPressed0",
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 3266,
+          "y": 540,
+          "w": 54,
+          "h": 62
+        },
+        "spriteSourceSize": {
+          "x": 2,
+          "y": 1,
+          "w": 54,
+          "h": 62
+        },
+        "sourceSize": {
+          "w": 64,
+          "h": 64
+        }
+      },
+      {
+        "filename": "uiButtonDisabled1",
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 2920,
+          "y": 41,
+          "w": 253,
+          "h": 64
+        },
+        "spriteSourceSize": {
+          "x": 3,
+          "y": 0,
+          "w": 253,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 256,
+          "h": 64
+        }
+      },
+      {
+        "filename": "uiButtonHIghlight0",
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 2408,
+          "y": 41,
+          "w": 254,
+          "h": 64
+        },
+        "spriteSourceSize": {
+          "x": 2,
+          "y": 0,
+          "w": 254,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 256,
+          "h": 64
+        }
+      },
+      {
+        "filename": "uiButtonHIghlight1",
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 3175,
+          "y": 41,
+          "w": 253,
+          "h": 64
+        },
+        "spriteSourceSize": {
+          "x": 3,
+          "y": 0,
+          "w": 253,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 256,
+          "h": 64
+        }
+      },
+      {
+        "filename": "uiButtonNormal0",
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 2664,
+          "y": 41,
+          "w": 254,
+          "h": 64
+        },
+        "spriteSourceSize": {
+          "x": 2,
+          "y": 0,
+          "w": 254,
+          "h": 64
+        },
+        "sourceSize": {
+          "w": 256,
+          "h": 64
+        }
+      },
+      {
+        "filename": "uiFightPrompt0_0",
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 3430,
+          "y": 45,
+          "w": 390,
+          "h": 271
+        },
+        "spriteSourceSize": {
+          "x": 10,
+          "y": 65,
+          "w": 390,
+          "h": 271
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "uiFightPrompt0_1",
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 3430,
+          "y": 318,
+          "w": 399,
+          "h": 284
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 62,
+          "w": 399,
+          "h": 284
+        },
+        "sourceSize": {
+          "w": 400,
+          "h": 400
+        }
+      },
+      {
+        "filename": "uiFire0_0",
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 1606,
+          "y": 34,
+          "w": 800,
+          "h": 568
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 32,
+          "w": 800,
+          "h": 568
+        },
+        "sourceSize": {
+          "w": 800,
+          "h": 600
+        }
+      },
+      {
+        "filename": "uiFire0_1",
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 2,
+          "y": 2,
+          "w": 800,
+          "h": 600
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 800,
+          "h": 600
+        },
+        "sourceSize": {
+          "w": 800,
+          "h": 600
+        }
+      },
+      {
+        "filename": "uiFire0_2",
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 804,
+          "y": 2,
+          "w": 800,
+          "h": 600
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 800,
+          "h": 600
+        },
+        "sourceSize": {
+          "w": 800,
+          "h": 600
+        }
+      },
+      {
+        "filename": "uiFire0_3",
+        "trimmed": true,
+        "rotated": false,
+        "frame": {
+          "x": 2408,
+          "y": 107,
+          "w": 800,
+          "h": 495
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 105,
+          "w": 800,
+          "h": 495
+        },
+        "sourceSize": {
+          "w": 800,
+          "h": 600
+        }
+      }
+    ]
+  }],
+  "meta": {
+    "app": "Phaser Editor - Atlas Generator",
+    "version": "2"
+  }
+}

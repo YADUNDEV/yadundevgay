@@ -1,0 +1,508 @@
+[
+  {
+    "key": "ccIdle",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccidle0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccidle0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccTurn",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccturn0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccturn0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccDash",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccdash0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccdash0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccWalk",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccwalk0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccwalk0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccSquat",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccsquat0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccsquat0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccJump",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccjump0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccjump0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccFall",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccfall0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccfall0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccHurt",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"cchurt0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"cchurt0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccTHROWstart",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccthrowstart0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccthrowstart0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccTHROWend",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccthrowend0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccthrowend0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkGAUstart",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkgaustart0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkgaustart0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkGAUactive",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkgauactive0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkgauactive0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkGAUend",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkgauend0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkgauend0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkGAFstart",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkgafstart0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkgafstart0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkGAFactive",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkgafactive0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkgafactive0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkGAFend",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkgafend0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkgafend0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkGADstart",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkgadstart0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkgadstart0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkGADactive",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkgadactive0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkgadactive0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkGADend",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkgadend0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkgadend0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkAAUstart",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkaaustart0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaaustart0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkAAUactive",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkaauactive0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaauactive0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkAAUend",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkaauend0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaauend0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkAAFstart",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkaafstart0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaafstart0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkAAFactive",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkaafactive0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaafactive0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkAAFend",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkaafend0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaafend0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkAADstart",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkaadstart0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadstart0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkAADactive",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkaadactive0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadactive0_1",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadactive0_2",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadactive0_3",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadactive0_4",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadactive0_5",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadactive0_6",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadactive0_7",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadactive0_8",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadactive0_9",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadactive0_10",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadactive0_11",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadactive0_12",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadactive0_13",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadactive0_14",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadactive0_15",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadactive0_16",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadactive0_17",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkAADend",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkaadend0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkaadend0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkABFstart",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkabfstart0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkabfstart0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkABFactive",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkabfend0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkabfend0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkABFend",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkabfend0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkabfend0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkGBFstart",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkgbfstart0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkgbfstart0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkGBFactive",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkgbfend0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkgbfend0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  },
+  {
+    "key": "ccAtkGBFend",
+    "frameRate": 15,"frames":[
+      {
+        "frame":"ccatkgbfend0_0",
+        "key":"ccAtlas"
+      },
+      {
+        "frame":"ccatkgbfend0_1",
+        "key":"ccAtlas"
+      }
+    ]
+  }
+]

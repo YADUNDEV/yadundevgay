@@ -1,0 +1,102 @@
+[
+  {
+      "name": "Fighter Animation Data",
+      "data": [
+        {
+          "key":"ccAnims",
+          "path":"assets/db/fighters/ccAnims.json"
+        },
+        {
+          "key":"ctAnims",
+          "path":"assets/db/fighters/ctAnims.json"
+        },
+        {
+          "key":"spAnims",
+          "path":"assets/db/fighters/spAnims.json"
+        },
+        {
+          "key":"prAnims",
+          "path":"assets/db/fighters/prAnims.json"
+        },
+        {
+          "key":"tcAnims",
+          "path":"assets/db/fighters/tcAnims.json"
+        }
+      ]
+  },
+  {
+      "name": "Fighter Attack Data",
+      "data": [
+        {
+          "key":"ccAtks",
+          "path":"assets/db/fighters/ccAttacks.json"
+        },
+        {
+          "key":"ctAtks",
+          "path":"assets/db/fighters/ctAttacks.json"
+        },
+        {
+          "key":"spAtks",
+          "path":"assets/db/fighters/spAttacks.json"
+        },
+        {
+          "key":"prAtks",
+          "path":"assets/db/fighters/prAttacks.json"
+        },
+        {
+          "key":"tcAtks",
+          "path":"assets/db/fighters/tcAttacks.json"
+        }
+      ]
+  },
+  {
+      "name": "Fighter Grip Data",
+      "data": [
+        {
+          "key":"ccGripData",
+          "path":"assets/db/fighters/ccGripData.json"
+        },
+        {
+          "key":"ctGripData",
+          "path":"assets/db/fighters/ctGripData.json"
+        },
+        {
+          "key":"spGripData",
+          "path":"assets/db/fighters/spGripData.json"
+        },
+        {
+          "key":"prGripData",
+          "path":"assets/db/fighters/prGripData.json"
+        },
+        {
+          "key":"tcGripData",
+          "path":"assets/db/fighters/tcGripData.json"
+        }
+      ]
+  },
+  {
+      "name": "Additional Animation Data",
+      "data": [
+        {
+          "key":"uiAnims",
+          "path":"assets/sprites/ui/uiAnims.json"
+        },
+        {
+          "key":"fxAnims",
+          "path":"assets/sprites/fx/fxAnims.json"
+        },
+        {
+          "key":"stgCTAnims",
+          "path":"assets/sprites/stages/stgCity/stgCityAnims.json"
+        },
+        {
+          "key":"catAnims",
+          "path":"assets/db/items/catAnims.json"
+        },
+        {
+          "key":"crateAnims",
+          "path":"assets/db/items/crateAnims.json"
+        }
+      ]
+  }
+]

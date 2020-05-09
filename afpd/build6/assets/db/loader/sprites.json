@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Stage Animations",
+    "data": [
+      {
+        "key":"stgCTAtlas",
+        "img":"assets/sprites/stages/stgCity/stgCity.png",
+        "atlas":"assets/sprites/stages/stgCity/stgCity_atlas.json"
+      }
+    ]
+  },
+  {
+    "name": "UI Animations",
+    "data": [
+      {
+        "key":"uiAtlas",
+        "img":"assets/sprites/ui/ui.png",
+        "atlas":"assets/sprites/ui/ui_atlas.json"
+      }
+    ]
+  },
+  {
+    "name": "Fighter Animations",
+    "data": [
+      {
+        "key":"ccAtlas",
+        "img":"assets/sprites/fighters/cc/cc.png",
+        "atlas":"assets/sprites/fighters/cc/cc_atlas.json"
+      },
+      {
+        "key":"ctAtlas",
+        "img":"assets/sprites/fighters/ct/ct.png",
+        "atlas":"assets/sprites/fighters/ct/ct_atlas.json"
+      },
+      {
+        "key":"spAtlas",
+        "img":"assets/sprites/fighters/sp/sp.png",
+        "atlas":"assets/sprites/fighters/sp/sp_atlas.json"
+      },
+      {
+        "key":"prAtlas",
+        "img":"assets/sprites/fighters/pr/pr.png",
+        "atlas":"assets/sprites/fighters/pr/pr_atlas.json"
+      },
+      {
+        "key":"tcAtlas",
+        "img":"assets/sprites/fighters/tc/tc.png",
+        "atlas":"assets/sprites/fighters/tc/tc_atlas.json"
+      },
+      {
+        "key":"catAtlas",
+        "img":"assets/sprites/items/cat/cat.png",
+        "atlas":"assets/sprites/items/cat/cat_atlas.json"
+      },
+      {
+        "key":"crateAtlas",
+        "img":"assets/sprites/items/crate/crate.png",
+        "atlas":"assets/sprites/items/crate/crate_atlas.json"
+      }
+    ]
+  },
+  {
+    "name": "Other Animations",
+    "data": [
+      {
+        "key":"fxAtlas",
+        "img":"assets/sprites/fx/fx.png",
+        "atlas":"assets/sprites/fx/fx_atlas.json"
+      }
+    ]
+  }
+]

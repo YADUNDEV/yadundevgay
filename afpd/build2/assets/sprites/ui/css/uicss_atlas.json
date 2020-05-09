@@ -1,0 +1,86 @@
+{
+    "frames": [
+        {
+            "filename": "uifightprompt0_0",
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 400,
+                "h": 400
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "uifightprompt0_1",
+            "frame": {
+                "x": 400,
+                "y": 0,
+                "w": 400,
+                "h": 400
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "uifire0_0",
+            "frame": {
+                "x": 0,
+                "y": 400,
+                "w": 800,
+                "h": 600
+            },
+            "anchor": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "filename": "uifire0_1",
+            "frame": {
+                "x": 800,
+                "y": 400,
+                "w": 800,
+                "h": 600
+            },
+            "anchor": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "filename": "uifire0_2",
+            "frame": {
+                "x": 0,
+                "y": 1000,
+                "w": 800,
+                "h": 600
+            },
+            "anchor": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "filename": "uifire0_3",
+            "frame": {
+                "x": 800,
+                "y": 1000,
+                "w": 800,
+                "h": 600
+            },
+            "anchor": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Phaser3",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

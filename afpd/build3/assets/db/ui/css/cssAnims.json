@@ -1,0 +1,38 @@
+[
+  {
+    "key": "cssFire",
+    "frameRate": 15,
+    "frames":[
+      {
+        "frame":"uifire0_0",
+        "key":"cssAtlas"
+      },
+      {
+        "frame":"uifire0_1",
+        "key":"cssAtlas"
+      },
+      {
+        "frame":"uifire0_2",
+        "key":"cssAtlas"
+      },
+      {
+        "frame":"uifire0_3",
+        "key":"cssAtlas"
+      }
+    ]
+  },
+  {
+    "key": "cssFightPrompt",
+    "frameRate": 15,
+    "frames":[
+      {
+        "frame":"uifightprompt0_0",
+        "key":"cssAtlas"
+      },
+      {
+        "frame":"uifightprompt0_1",
+        "key":"cssAtlas"
+      }
+    ]
+  }
+]

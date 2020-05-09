@@ -1,0 +1,1100 @@
+{
+    "frames": [
+        {
+            "filename": "ctatkaadstart0_0",
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkaadstart0_1",
+            "frame": {
+                "x": 200,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkaadactive0_0",
+            "frame": {
+                "x": 400,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkaadactive0_1",
+            "frame": {
+                "x": 600,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkaadend0_0",
+            "frame": {
+                "x": 800,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkaadend0_1",
+            "frame": {
+                "x": 1000,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkaafstart0_0",
+            "frame": {
+                "x": 1200,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkaafstart0_1",
+            "frame": {
+                "x": 1400,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkaafactive0_0",
+            "frame": {
+                "x": 1600,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkaafactive0_1",
+            "frame": {
+                "x": 1800,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkaafend0_0",
+            "frame": {
+                "x": 2000,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkaafend0_1",
+            "frame": {
+                "x": 2200,
+                "y": 0,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkaaustart0_0",
+            "frame": {
+                "x": 0,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkaaustart0_1",
+            "frame": {
+                "x": 200,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkaauactive0_0",
+            "frame": {
+                "x": 400,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkaauactive0_1",
+            "frame": {
+                "x": 600,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkaauend0_0",
+            "frame": {
+                "x": 800,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkaauend0_1",
+            "frame": {
+                "x": 1000,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkabfstart0_0",
+            "frame": {
+                "x": 1200,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkabfstart0_1",
+            "frame": {
+                "x": 1400,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkabfactive0_0",
+            "frame": {
+                "x": 1600,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkabfactive0_1",
+            "frame": {
+                "x": 1800,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkabfactive0_2",
+            "frame": {
+                "x": 2000,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkabfactive0_3",
+            "frame": {
+                "x": 2200,
+                "y": 200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkabfactive0_4",
+            "frame": {
+                "x": 0,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkabfactive0_5",
+            "frame": {
+                "x": 200,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkabfactive0_6",
+            "frame": {
+                "x": 400,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkabfactive0_7",
+            "frame": {
+                "x": 600,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkabfactive0_8",
+            "frame": {
+                "x": 800,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkabfactive0_9",
+            "frame": {
+                "x": 1000,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkabfactive0_10",
+            "frame": {
+                "x": 1200,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkabfend0_0",
+            "frame": {
+                "x": 1400,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkabfend0_1",
+            "frame": {
+                "x": 1600,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgadstart0_0",
+            "frame": {
+                "x": 1800,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgadstart0_1",
+            "frame": {
+                "x": 2000,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgadend0_0",
+            "frame": {
+                "x": 2200,
+                "y": 400,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgadend0_1",
+            "frame": {
+                "x": 0,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgafstart0_0",
+            "frame": {
+                "x": 200,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgafstart0_1",
+            "frame": {
+                "x": 400,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgafactive0_0",
+            "frame": {
+                "x": 600,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgafactive0_1",
+            "frame": {
+                "x": 800,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgafend0_0",
+            "frame": {
+                "x": 1000,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgafend0_1",
+            "frame": {
+                "x": 1200,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgaustart0_0",
+            "frame": {
+                "x": 1400,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgaustart0_1",
+            "frame": {
+                "x": 1600,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgauactive0_0",
+            "frame": {
+                "x": 1800,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgauactive0_1",
+            "frame": {
+                "x": 2000,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgauend0_0",
+            "frame": {
+                "x": 2200,
+                "y": 600,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgauend0_1",
+            "frame": {
+                "x": 0,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgbfstart0_0",
+            "frame": {
+                "x": 200,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgbfstart0_1",
+            "frame": {
+                "x": 400,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgbfactive0_0",
+            "frame": {
+                "x": 600,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgbfactive0_1",
+            "frame": {
+                "x": 800,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgbfactive0_2",
+            "frame": {
+                "x": 1000,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgbfactive0_3",
+            "frame": {
+                "x": 1200,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgbfactive0_4",
+            "frame": {
+                "x": 1400,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgbfactive0_5",
+            "frame": {
+                "x": 1600,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgbfactive0_6",
+            "frame": {
+                "x": 1800,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgbfactive0_7",
+            "frame": {
+                "x": 2000,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgbfactive0_8",
+            "frame": {
+                "x": 2200,
+                "y": 800,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgbfactive0_9",
+            "frame": {
+                "x": 0,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgbfactive0_10",
+            "frame": {
+                "x": 200,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgbfend0_0",
+            "frame": {
+                "x": 400,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctatkgbfend0_1",
+            "frame": {
+                "x": 600,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctdash0_0",
+            "frame": {
+                "x": 800,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctdash0_1",
+            "frame": {
+                "x": 1000,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctfall0_0",
+            "frame": {
+                "x": 1200,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctfall0_1",
+            "frame": {
+                "x": 1400,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "cthurt0_0",
+            "frame": {
+                "x": 1600,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "cthurt0_1",
+            "frame": {
+                "x": 1800,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctidle0_0",
+            "frame": {
+                "x": 2000,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctidle0_1",
+            "frame": {
+                "x": 2200,
+                "y": 1000,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctjump0_0",
+            "frame": {
+                "x": 0,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctjump0_1",
+            "frame": {
+                "x": 200,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctsquat0_0",
+            "frame": {
+                "x": 400,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctsquat0_1",
+            "frame": {
+                "x": 600,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctthrowstart0_0",
+            "frame": {
+                "x": 800,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctthrowstart0_1",
+            "frame": {
+                "x": 1000,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctthrowend0_0",
+            "frame": {
+                "x": 1200,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctthrowend0_1",
+            "frame": {
+                "x": 1400,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctturn0_0",
+            "frame": {
+                "x": 1600,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctturn0_1",
+            "frame": {
+                "x": 1800,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctwalk0_0",
+            "frame": {
+                "x": 2000,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ctwalk0_1",
+            "frame": {
+                "x": 2200,
+                "y": 1200,
+                "w": 200,
+                "h": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Phaser3",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}
