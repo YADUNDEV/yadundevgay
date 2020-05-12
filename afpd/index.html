@@ -6,30 +6,193 @@
     <link rel="stylesheet"href="main.css">
 </head>
 <body>
-<div class = "main_header">
-  <img src="assets/title.png">
-  <h1>Iteration Timeline</h1>
-</div>
-<div class="timeline">
-  <div class="timeline_node">
+<div class = 'main_page'>
+  <div class = "main_header">
+    <img src="assets/title.png">
+    <h1>Iteration Timeline</h1>
   </div>
-</div>
-<ol>
-<li><a href="concept">Design Sketches / Concept Art</a></li>
-<li><a href="build0">Earliest Prototype: Cat Tossers: Showdown (2/25/20)</a></li>
-<li><a href="build1">First Pre-alpha: Neo Fight Fighter: The Fighters (3/5/20)</a></li>
-<li><a href="build2">First Alpha: Abomination Fight Pit Deluxe Version 0.1.1 (4/4/20)</a></li>
-<li><a href="build3">First Public Release: Abomination Fight Pit Deluxe Version 0.2.0 (4/5/20)</a></li>
-<li><a href="build4">Abomination Fight Pit Deluxe Version 0.3.1 (4/13/20)</a></li>
-<li><a href="build5">Abomination Fight Pit Deluxe Version 0.4.0 (4/18/20)</a></li>
-<li><a href="build6">Abomination Fight Pit Deluxe Version 0.5.0 (5/7/20)</a></li>
-</ol>
-<a href="https://yadunded.itch.io/abomination-fight-pit-deluxe" class="button"><h3>Itch.io</h3></a>
-<div class="about">
-  <h2>About Abomination Fight Pit Deluxe</h2>
-  <p>
-
-  </p>
+  <div class="button"><a href="concept" target = '_blank'><h3>Concept Art / Design Sketches</h3></a></div>
+  <br><br><br>
+  <div class="timeline">
+    <div class="tn">
+      <a href = 'build0'>
+      <h2>(2/25/20)</h2>
+      <img src="assets/timelineHover.png">
+      <h3>First Prototype: Cat Tossers: Showdown</h3>
+    </div>
+    <div class="tn">
+      <a href = 'build1'>
+        <h2>(3/5/20)</h2>
+        <img src="assets/timelineHover.png">
+        <h3>Pre-Alpha: Neo Fight Fighter: The Fighters</h3>
+      </a>
+    </div>
+    <div class="tn">
+      <a href = 'build2'>
+        <h2>(4/4/20)</h2>
+        <img src="assets/timelineHover.png">
+        <h3>Abomination Fight Pit Deluxe Version 0.1.1 </h3>
+      </a>
+    </div>
+    <div class="tn">
+      <a href = 'build3'>
+        <h2>(4/5/20)</h2>
+        <img src="assets/timelineHover.png">
+        <h3>Abomination Fight Pit Deluxe Version 0.2.0</h3>
+      </a>
+    </div>
+    <div class="tn">
+      <a href = 'build4'>
+        <h2>(4/13/20)</h2>
+        <img src="assets/timelineHover.png">
+        <h3>Abomination Fight Pit Deluxe Version 0.3.1</h3>
+      </a>
+    </div>
+    <div class="tn">
+      <a href = 'build5'>
+        <h2>(4/18/20)</h2>
+        <img src="assets/timelineHover.png">
+        <h3>Abomination Fight Pit Deluxe Version 0.4.0</h3>
+      </a>
+    </div>
+    <div class="tn">
+      <a href = 'build6'>
+        <h2>(5/7/20)</h2>
+        <img src="assets/timelineHover.png">
+        <h3>Abomination Fight Pit Deluxe Version 0.5.0</h3>
+      </a>
+    </div>
+  </div>
+  <ol>
+  <br><br><br>
+  <div class="about">
+    <h1>About <em>Abomination Fight Pit Deluxe</em></h1>
+    <p>
+      <em>Abomination Fight Pit Deluxe</em> is a hand-drawn platform fighter developed in Phaser 3
+      over the course of and beyond the Spring 2020 semester. The purpose of
+      this website is to chronicle it's development history up to 0.5.0.
+      Through the links above you'll be able to play each major build of the
+      game up to this point, as well as view concept art and design sketches,
+      footage of each build, and additional notes regarding the differences and significance of each build.
+    </p>
+  </div>
+  <div class="button"><a href="https://yadunded.itch.io/abomination-fight-pit-deluxe" target = '_blank'><p>Itch.io</p></a></div>
+  <div class='howtoplay'>
+    <h1>How to Play (AFPD)</h1>
+    <h2>Controls</h2>
+    <div>
+      <p><em>[
+        <strong>NOTE</strong>:
+        You can set controller sensitivity in the options menu (In 0.3.1+).
+        For Xbox gamepads, the default values are fine, but for Gamecube controllers, a sensitivity of 1.2 is recommended.
+        ]
+      </em></p>
+      <p>
+        [
+        <strong><em>If controller input doesn't work:</em></strong>
+        <em>Keep controllers plugged in, close browser completely, and reopen browser. Note that on a Mayflash adapter, player 1 is the 4th port.</em>
+        ]
+      </p>
+      <p>Note that you may only set custom controls and input sensitivity in versions 0.3.1 and above.</p>
+      <a href = 'assets/afpd_defaultControls.png' target = '_blank' title='Default Controls'><img src='assets/afpd_defaultControls.png'></a>
+    </div>
+    <h2>Mechanics</h2>
+    <div>
+      <p><strong>All characters have the following attacks:</strong></p>
+      <ul>
+        <li>GAU (Ground Normal Up)</li>
+        <li>GAN (Ground Normal Neutral)</li>
+        <li>GAD (Ground Normal Down)</li>
+        <li>AAU (Air Normal Up)</li>
+        <li>AAN (Air Normal Neutral)</li>
+        <li>AAD (Air Normal Down)</li>
+        <li>GBN (Ground Special Neutral)</li>
+        <li>ABN (Air Special Neutral)
+          <ul>
+            <li>(Usually differs only slightly from GBN)</li>
+          </ul>
+        </li>
+      </ul>
+      <p>
+        Some characters have additional or alternate actions possible while in
+        an attack, for example, Prince Slime can aim his grab and subsequent
+        throw by tilting the stick up, left, down, or right, and Carpenter
+        Chicken can throw their hammers at different velocities depending on
+        the analog stick input.
+      </p>
+      <p>
+        Additionally, you can instantly turn around by performing an
+        attack in the opposite direction.
+      </p>
+      <p><strong>All characters can perform the following actions:</strong></p>
+      <ul>
+        <li>Dash
+          <ul>
+            <li>By flicking the stick left or right while on the ground.</li>
+          </ul>
+        </li>
+        <li>Turnaround
+          <ul>
+            <li>By slightly tilting the stick in the other direction.</li>
+          </ul>
+        </li>
+        <li>Walk
+          <ul>
+            <li>By tilting the stick or after exiting a dash.</li>
+          </ul>
+        </li>
+        <li>Air Dash
+          <ul>
+            <li>By pressing the air dash button while inputting a direction, or by not holding a direction you can perform a neutral air dash.</li>
+          </ul>
+        </li>
+        <li>Normal Attack</li>
+        <li>Special Attack</li>
+        <li>Jump
+          <ul>
+            <li>By pressing the jump button.</li>
+          </ul>
+        </li>
+        <li>Short-hop
+          <ul>
+            <li>By tapping the jump button and releasing before jumpsquat ends.</li>
+          </ul>
+        </li>
+        <li>Double Jump
+          <ul>
+            <li>Some characters may have more than two jumps.</li>
+          </ul>
+        </li>
+        <li>Fast-Fall
+          <ul>
+            <li>Flick the stick down once while in the air to gain a burst of downward momentum.</li>
+          </ul>
+        </li>
+        <li>Plat-drop
+          <ul>
+            <li>By holding down while on a platform or before landing on a platform.</li>
+          </ul>
+        </li>
+        <li>Pickup Item
+          <ul>
+            <li>By performing a normal attack on an item or by air dashing over it.</li>
+          </ul>
+        </li>
+        <li>Throw Item
+          <ul>
+            <li>
+              Can be thrown up, down, left, or right. Items can also be
+              thrown at 3 different speeds, soft by tilting slightly, medium by
+              tilting more than slightly, and heavy by flicking the stick in
+              the desired direction.
+            </li>
+            <li>Trivia: Characters have different frame data on throwing items.</li>
+          </ul>
+        </li>
+      </ul>
+      <p>For more details about the game mechanics and whatnot, drop by the Itch.io page's <a href='https://yadunded.itch.io/abomination-fight-pit-deluxe/community'>community forum</a>!</p>
+    </div>
+  </div>
 </div>
 
 </body>
