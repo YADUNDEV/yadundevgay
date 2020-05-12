@@ -1,0 +1,289 @@
+@font-face
+{
+	font-family: "AFPDUI";
+	src: url("assets/AFPDUI.ttf");
+}
+@font-face
+{
+	font-family: "Assistant";
+	src: url("assets/Assistant-Regular.ttf");
+}
+:root
+{
+	--cBlack: #000000;
+	--cWhite: #ffffff;
+	--cBeige1: #6c665e;
+	--cBeige2: #cec7be;
+	--cBeige3: #f7f4e3;
+	--cBrown1: #050505;
+	--cBrown2: #070706;
+	--cBrown3: #2f2b25;
+}
+html {
+	height: 100%;
+	background-color: #000000;
+	background-image: linear-gradient(#0f0105,#2e0510);
+	background-attachment: fixed;
+}
+body{
+	color: #ffffff;
+	font-family: AFPDUI, Assistant;
+}
+.main_header {
+	color: #ffffff;
+}
+.timeline {
+	color: #ffffff;
+}
+.timeline_node {
+	color: #ffffff;
+}
+.button {
+	color: #ffffff;
+}
+.back_button {
+	color: #ffffff;
+	background-image: url("assets/uiButton.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-content: stretch;
+	align-items: center;
+	width: 254px;
+	height: 64px;
+
+}
+.back_button a, .back_button p {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	padding-top: 4%;
+}
+.about {
+	color: #ffffff;
+}
+.howtoplay {
+	color: #ffffff;
+}
+.patch_notes {
+	color: #ffffff;
+}
+h1 {
+	color: #ffffff;
+}
+h2 {
+	color: #ffffff;
+
+}
+
+.concept_and_design {
+	width: 72%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-content: stretch;
+	align-items: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: rgba(0,0,0,0.4);
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+
+.concept_head {
+	color: #ffffff;
+	text-align: center;
+	font-size: 1.5em;
+}
+.concept_head h1 {
+	color: #ffffff;
+	font-size: 2em;
+}
+
+.concept_node_head {
+	color: #ffffff;
+	grid-area: h;
+	text-align: left;
+}
+.concept_node_text {
+	grid-area: t;
+	text-align: left;
+}
+.concept_node_img {
+	grid-area: i;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: stretch;
+	height: 700px;
+}
+.concept_node_img img, .concept_node_img a {
+	max-height: 100%;
+}
+.concept_node_extra {
+	grid-area: e;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: stretch;
+}
+.concept_node_extra a {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-content: flex-end;
+}
+.concept_node_extra img {
+	max-width: 100%;
+}
+.concept_node {
+	position:relative;
+	display: grid;
+  grid-template-areas:
+		'h h h h i i i'
+    't t t t i i i'
+    't t t t i i i'
+    't t t t i i i'
+	  'e e e e e e e';
+  grid-gap: 1%;
+  grid-template-columns:1fr 1fr 1fr 2fr 2fr 1fr 2fr;
+  grid-template-rows: 4 16 16 4 8;
+	padding: 0;
+
+  justify-content: left;
+  align-content: space-between;
+  font-size: 1.5em;
+}
+.design_head {
+	color: #ffffff;
+	text-align: left;
+	font-size: 1.5em;
+}
+.design_head h1 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 1.8em;
+}
+.fighter_design_head {
+	grid-area: h;
+	display: flex;width:100%;
+	max-height: 200px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: stretch;
+	align-items: center;
+}
+.fighter_design_head img {
+	display: inline-block;
+	max-height: 100%;
+	margin-bottom: 45%;
+}
+.fighter_design_draft {
+	grid-area: d;
+	display: flex;
+
+	max-height: 100%;
+	min-height: 50%;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: stretch;
+
+}
+.fighter_design_draft img {
+	max-height: 100%;
+	min-height: 50%;
+}
+.fighter_design_extra {
+	grid-area: e;
+}
+.fdf_gbn {
+	grid-area: gbn;
+}
+.fdf_gau {
+	grid-area: gau;
+}
+.fdf_gan {
+	grid-area: gan;
+}
+.fdf_gad {
+	grid-area: gad;
+}
+.fdf_aau {
+	grid-area: aau;
+}
+.fdf_aan {
+	grid-area: aan;
+}
+.fdf_aad {
+	grid-area: aad;
+}
+.fdf_gbn, .fdf_gau, .fdf_gan, .fdf_gad, .fdf_aau, .fdf_aan, .fdf_aad {
+	display: flex;
+	width: 200px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: stretch;
+}
+.fdf_gbn a, .fdf_gbn img {
+	color: #ffffff;
+	max-width: 100%;
+}
+.fdf_gan a, .fdf_gau a, .fdf_gad a, .fdf_aau a, .fdf_aan a, .fdf_aad a,
+.fdf_gan img, .fdf_gau img, .fdf_gad img, .fdf_aau img, .fdf_aan img, .fdf_aad img {
+	color: #ffffff;
+	max-width: 100%;
+}
+.fighter_design_final {
+	position:relative;
+	display: grid;
+  grid-template-areas:
+		'gbn gbn'
+		'gau aau'
+		'gan aan'
+		'gad aad';
+  grid-gap: 1%;
+  grid-template-columns:1fr 1fr;
+
+	padding: 0;
+
+	max-height: 100%;
+  justify-content: center;
+  align-content: space-around;
+	grid-area: f;
+}
+
+.fighter_design {
+	color: #ffffff;
+	position:relative;
+	display: grid;
+  grid-template-areas:
+		'h h h h h h'
+    'd d d f f f'
+    'd d d f f f'
+    'd d d f f f'
+	  'e e e e e e';
+  grid-gap: 1%;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 4 16 16 16 8;
+
+  max-width: 100%;
+  width:100%;
+
+  justify-content: left;
+
+  font-size: 1.5em;
+}
+h1, h2, .back_button p {
+  text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta charset="UTF-8">
-    <title>Cat Tossers Showdown</title>
+    <title>Abomination Fight Pit Deluxe 0.4.0</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -23,71 +23,72 @@
           image-rendering: pixelated;                  /* Chrome 41 */
         }
     </style>
+    <link rel="stylesheet"href="../main.css">
 </head>
 
 <body>
-<a href="../">Back</a>
+<div class='back_button'><a href="../"><p>Back</p></a></div>
 
-<h1>First Prototype: Cat Tossers Showdown</h1>
+<h1>Abomination Fight Pit Deluxe 0.4.0</h1>
 <div id="game" style="display: block; width: 100%; text-align: center"></div>
+<div class="trailer">
+  <h2>Associated Trailers</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/mPeDgr5yzQk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""><span id="selection-marker-1" class="redactor-selection-marker"></span></iframe>
+</div>
 <h2>About</h2>
-<p>
-At this early stage I was aching to create a platform fighter, but I wasn't sure how viable it would be within the Phaser 3 API.
-Cat Tossers Showdown proved to be a great way to test the waters and get a feel for Phaser's capabilities, but is also a unique game in its own right.
-The mechanics are heavily simplified relative to what you would find in a traditional platform fighter.
-There are no attacks, no hitstun, no stocks, no health or knockback scaling. Your only means of offense is to grab cats that constantly fall from the sky, and chuck them at your opponent.
-Your only means of defense is a directional air-dodge, which can also still be used to wavedash.
-Once you are struck by a cat, you are left completely vulnerable until you land on the ground.
-The result is a very fast-paced party game for two players.
-</p>
-<h2>How to play</h2>
-<ul>
-  <li>Controls:
+<div class="about">
+  <p>
+    0.4.0 was light on new features, but it did add pause functionality, among a few minor things such as a framerate monitor.
+    Its most notable addition is a new character, TC-C016, the second cameo appearance, originally appearing as the protagonist in one of my very first projects that was unfortunately never completed, a survival horror sidescroller called <a ref="https://youtu.be/MFtREJp5sSI"><em>SAFE</em></a>.
+    For more information on how this character was designed, click <a href='../concept'>here</a>.
+</div>
+<h2>Original Patch Notes</h2>
+<div class="patch_notes">
+  <p>Version 0.4.0 is now live!</p>
+  <p>And with it comes a new character: TC-C016, the protagonist from my cancelled survival horror title, <em>SAFE</em>.</p>
+  <p>
+    TC's primary gimmick is their rocket boot double jump, which allows them to fly about until they run out of fuel. Continue your flight by holding the jump button, or change directions by double-jumping again, at the cost of using more fuel.
+    Performing an air attack while double jumping will allow you to perform a double-jump cancel (DJC), which is useful for combos and movement.
+  </p>
+  <p>
+    TC's special attack is Reflector, which, as the name suggests, reflects projectiles and items that collide with it back at the attacker. It puts out hitboxes as well, and is useful for combos and movement.
+  </p>
+  <p><br></p>
+  <p>Aside from the new character, here are the noteworthy changes:</p>
+  <p>New Features:</p>
   <ul>
-    <li>Movement</li>
-      <ul>
-        <li>Player 1 (KB): WASD</li>
-        <li>Player 2 (KB): IJKL</li>
-        <li>Gamepad: Left Stick</li>
-      </ul>
-    <li>Jump</li>
-      <ul>
-        <li>Player 1 (KB): W</li>
-        <li>Player 2 (KB): I</li>
-        <li>Gamepad: Y or B</li>
-      </ul>
-    <li>Pickup/Throw</li>
-      <ul>
-        <li>Player 1 (KB): C</li>
-        <li>Player 2 (KB): N</li>
-        <li>Gamepad: A or RB</li>
-      </ul>
-    <li>Air Dash:
-      <ul>
-        <li>Player 1 (KB): Shift</li>
-        <li>Player 2 (KB): Quotes Key</li>
-        <li>Gamepad: X, LT, or RT</li>
-      </ul>
-    </li>
+    <li>You can now pause during gameplay! While paused you can also move the camera around and zoom in/out, as well as exit the match.</li>
+    <li>You can now view the game's framerate during play, visit game settings to enable.</li>
   </ul>
-  </li>
-  <li>Mechanics:
-    <ul>
-      <li>Throwing: You can throw cats up, down, left, or right. This can be done in a variety of ways.
-        <ul>
-          <li>Default Toss: Pressing the throw button while not touching the analog stick/movement keys will throw the cat forward at a normal speed.</li>
-          <li>Soft Toss: Only possible on gamepad, by slightly tilting the analog stick in the direction you would like to throw.</li>
-          <li>Normal Toss: Done by tilting the analog stick at a medium range or by tilting the stick at full range for a certain amount of time will result in a normal toss.</li>
-          <li>Hard Toss: Done by suddenly flicking the analog stick at full range when throwing.</li>
-        </ul>
-      </li>
-      <li>Double Jumping: While in the air, you may jump one additional time.</li>
-      <li>Air Dash: While in the air, you may gain a sudden boost of speed in any desired direction. While in this state, if you are not already holding a cat, you will pick one up if you dash over it.</li>
-      <li>Wavedashing: Jumping and immediately dashing down-left or down-right will maintain your x momentum after landing on the ground.</li>
-      <li>Shorthopping: Releasing the jump button before your jumpsquat animation ends will allow you to decrease the vertical gain of your jump.</li>
-    </ul>
-  </li>
-</ul>
+  <p>Balance Changes:&nbsp;</p>
+  <ul>
+    <li>Cat Tosser gains slightly more vertical speed from their special attack.</li>
+    <li>Decreased Carpenter Chicken's GAF damage from 11 to 5, increased its knockback-growth from 40 to 50.</li>
+  </ul>
+  <p>Notable Gameplay Changes:&nbsp;</p>
+  <ul>
+    <li>Bridge of Tossing and Space&nbsp; Highway blast zones adjusted.</li>
+    <li>You now bounce off of walls when hit with a strong enough attack.</li>
+    <li>Input is now retrieved on a per-key priority basis; Meaning that if you press jump 1 frame, and then press another button mapped to jump the very next frame, it will now read as 'pressed' rather than 'held'. This is primarily to make DJCs easier with TC-C016.</li>
+  </ul>
+  <p>Notable Visual/Audio Effect Additions:</p>
+  <ul>
+    <li>Added new announcer voice lines.</li>
+    <li>Added fire and electricity particle effects for appropriate moves.</li>
+  </ul>
+  <p>Notable Bug Fixes:</p>
+  <ul>
+    <li>Prince Slime will no longer be able to carry you around if something interrupts his throw animation.</li>
+    <li>You can no longer cancel a grounded platdrop by releasing the analog stick.</li>
+    <li>You can no longer get stuck in the stage (Greatly improved collision stability).</li>
+  </ul>
+  <p>Known Issues:</p>
+  <ul>
+    <li>TC-C016 does not render correctly in team battle modes (does not match team color).</li>
+    <li>Sometimes pausing does not correctly pause velocity, resulting in characters drifting.</li>
+  </ul>
+</div>
+
 <script type=text/javascript src=./js/bundle.js?b0c97ad60c98edad05b6></script>
 </body>
 </html>

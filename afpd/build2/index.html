@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta charset="UTF-8">
-    <title>AFPD 0.1.0</title>
+    <title>AFPD 0.1.1</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -23,25 +23,49 @@
           image-rendering: pixelated;                  /* Chrome 41 */
         }
     </style>
+    <link rel="stylesheet"href="../main.css">
 </head>
 
 <body>
-<a href="../">Back</a>
+<div class='back_button'><a href="../"><p>Back</p></a></div>
 
-<h1>Abomination Fight Pit Deluxe 0.1.0</h1>
+<h1>Abomination Fight Pit Deluxe 0.1.1</h1>
 <div id="game" style="display: block; width: 100%; text-align: center"></div>
 <div class="trailer">
+  <h2>Associated Trailers</h2>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/R0pOfPKpFt8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/G8e6mYztcLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<h2>About</h2>
-<p>
-  This is the first proper build of AFPD, and was also released on itch.io. To promote its release, I created a trailer, introducing the three playable characters and teasing the next character I was working on, Prince Slime.
-  This version of the game still does not have special attacks, ground dashes, and a few other mechanics that would be introduced in later builds.
-  Sputnik, the sewer creature with big dreams, was introduced in this build, and was a significantly stronger character here as this was before I introduced SDI, a mechanic that helps players escape combos.
-  Sputnik was the first cameo character in AFPD, originally appearing in one of my earlier games, <a href = "https://yadunded.itch.io/help-sputnik-get-to-space-">Help Sputnik Get To Space</a>.
-  To coincide with the release of Sputnik, I created a new stage, Space Highway, also from Help Sputnik Get to Space. The stage features an original medley remix of the music from HSGtS, and is an absolute banger.
-  Much of the instability present in Neo Fight Fighters has been cleaned up at this point, though the level of polish would only continue to grow in subsequent builds.
-</p>
+
+<div class = "about">
+  <h2>About</h2>
+  <p>
+    This is the first proper build of AFPD, and was also released on itch.io.
+    Much of the instability present in Neo Fight Fighters has been cleaned up at this point, though the level of polish would only continue to grow in subsequent builds.
+    To promote its release beforehand, I created a trailer, introducing the three playable characters and teasing the next character I was working on, Prince Slime.
+    The second trailer was released around the same time as the build was released on itch.io, I created a second trailer, showcasing Prince Slime.
+    This trailer would feature the first music track created by a friend of mine, wishing to only be credited as "FUG," who would go on to create several more tracks for the game.
+    This build would also add voice acting to the game, courtesy of a friend of mine, Cole Stanley, voicing the announcer.
+    Thus this update marked the first where I was not the sole contributor to this project.
+    This version of the game adds special attacks, but lacks many mechanics that would be added in later builds, such as ground dashes.
+  </p>
+  <p>
+    Sputnik, the sewer creature with big dreams, was introduced in an alpha build before this that was unfortunately lost to time. In that build he was a significantly stronger character as in this build I introduced SDI, a mechanic that helps players escape combos.
+    Sputnik was the first cameo character in AFPD, originally appearing in one of my earlier games, <a href = "https://yadunded.itch.io/help-sputnik-get-to-space-"><em>Help Sputnik Get To Space</em></a>.
+    To coincide with the release of Sputnik, I created a new stage, Space Highway, also from <em>Help Sputnik Get to Space</em>. The stage features an original medley remix of the music from HSGtS, and is an absolute banger.
+  </p>
+  <p>
+    This build's second new character, Prince Slime, originates from an old sketch of mine that I happened to stumble across when inspiration struck. His trident in particular I found could be mechanically interesting, using it to stake his opponents and throw them in different directions.
+    Even now, Prince Slime sports the highest sprite count of any other character, at over 110 unique frames of animation, though Sputnik comes close at 99 frames, and TC-C016, which would be released in 0.4.0 at 98 frames.
+    Artistically and technically, Prince Slime presented several challenges that ended up changing many things going forward.
+    From an aesthetic design perspective, fitting Prince Slime's relatively complicated design into AFPD's crayon-drawn art style was a major hurdle that shifted certain aspects of the art style.
+    Going forward, character outlines would need to be finer, and fully opaque, to properly convey the characters' finer details. This was a positive change that I believe improved the art in general, and I was already leaning toward this direction with Sputnik's sprites, but it made Cat Tosser and Carpenter Chicken's art look a little more dated.
+    The technical issues cropped up when I realized that Prince Slime's art would have to be much larger than the previous characters to enable his higher melee range.
+    Since it would be wasteful to make all of his sprites that size, I had to come up with a solution to allow for characters to have variable sprite sizes.
+    In addition, the sprite packer software I had been using couldn't handle Prince Slime's sprite count, so I had to bounce around alternatives before finding one that worked while requiring minimal changes to the game itself.
+    Ultimately these design issues served as stress tests that only improved the game's technical foundation and workflow, and I'm glad I ran into them when I did.
+  </p>
+</div>
 <script type=text/javascript src=./js/bundle.js?b0c97ad60c98edad05b6></script>
 </body>
 </html>
