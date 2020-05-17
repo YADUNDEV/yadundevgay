@@ -372,3 +372,17 @@ h1, h2, h3 {
 .tn h3 {
 	font-size: 1.6vmin;
 }
+.howtoplay, .about, .patch_notes {
+	background-image: url("assets/afpditchbg2.png");
+	background-repeat: repeat-y;
+	background-position: center top;
+	background-size: 100% 240px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	border-width: 10px;
+	padding: 2%;
+}
+.howtoplay p, .about p, .patch_notes p {
+	font-size: 1.3em;
+}
