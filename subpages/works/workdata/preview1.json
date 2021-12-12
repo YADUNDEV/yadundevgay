@@ -1,0 +1,35 @@
+{
+  "title" : "SKELEBUDDY",
+  "date":"2015",
+  "order":1,
+  "video":"https://www.youtube.com/embed/5V_y2xPgGKU",
+  "description":"An independently developed experimental first-person maze skeletal pet simulator distinctive for its unique visual style and weird-fiction narrative.",
+  "details":[
+    {"k":"Engine","v":"GameMaker: Studio"},
+    {"k":"Platforms","v":"PC"},
+    {"k":"Role","v":"Independent"}
+  ],
+  "links":[{
+    "show":"true",
+    "info":"Itch.io",
+    "url":"https://yadunded.itch.io/skelebuddy"
+  }],
+  "thumbnail" : "skelebuddy/sbthumbgj.gif",
+  "images":[
+    "skelebuddy/ss1.jpg",
+    "skelebuddy/ss2.jpg",
+    "skelebuddy/ss3.jpg"
+  ],
+  "embeds":[
+    {
+      "attributes":
+      [
+        {"k":"width","v":"100%"},
+        {"k":"height","v":"166"},
+        {"k":"scrolling","v":"no"},
+        {"k":"allow","v":"autoplay"},
+        {"k":"src","v":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/741603115&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"}
+      ]
+    }
+  ]
+}

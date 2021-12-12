@@ -1,0 +1,23 @@
+{
+  "title" : "A Story of Hope",
+  "date":"2018",
+  "order":9,
+  "video":"https://www.youtube.com/embed/6-Qr4xses8g",
+  "description":"A simple vehicular platformer prototype created in Unreal Engine 4. Primarily a demonstration of basic UE4 skills (blueprints, materials, animation profiles, lighting, etc.), this prototype also features many unique art assets. The attached video plays through the entire prototype.",
+  "details":[
+    {"k":"Engine","v":"Unreal Engine 4"},
+    {"k":"Platforms","v":"PC"},
+    {"k":"Role", "v": "Independent"}
+  ],
+  "links":[{
+    "show":"false",
+    "info":"",
+    "url":""
+  }],
+  "thumbnail" : "hope/hope.gif",
+  "images":[
+    "hope/hope.gif"
+  ],
+  "embeds":[
+  ]
+}

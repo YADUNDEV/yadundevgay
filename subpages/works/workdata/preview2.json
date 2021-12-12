@@ -1,0 +1,55 @@
+{
+  "title" : "ROBOCAT 02 II DUO / PI JUDGEMENT DAYS _XxX_TURBO_XxX_ EDITION DX",
+  "date":"2015",
+  "order":2,
+  "video":"https://www.youtube.com/embed/TVYXfgndmoQ",
+  "description":"An OUYA-exclusive remastered version of a previously released co-op twin-stick platforming rogue-lite. ROBOCAT 02 II DUO / PI JUDGEMENT DAYS _XxX_TURBO_XxX_ EDITION DX is a tough-as-nails twinstick shooter platformer with randomly generated elements! Walk on and around walls to take cover from enemies! Experiment with different combinations of weapons, ammunition, and upgrades!",
+  "details":[
+    {"k":"Engine","v":"GameMaker: Studio"},
+    {"k":"Platforms","v":"OUYA"},
+    {"k":"Role","v":"Independent"}
+  ],
+  "links":[{
+    "show":"true",
+    "info":"Itch.io",
+    "url":"https://yadunded.itch.io/robocat-02-jd-turbodx"
+  }],
+  "thumbnail" : "robocatouya/robocat.gif",
+  "images":[
+    "robocatouya/SS2.png",
+    "robocatouya/SS15.png",
+    "robocatouya/SS3.png"
+  ],
+  "embeds":[
+    {
+      "attributes":
+      [
+        {"k":"width","v":"100%"},
+        {"k":"height","v":"166"},
+        {"k":"scrolling","v":"no"},
+        {"k":"allow","v":"autoplay"},
+        {"k":"src","v":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/627328785&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"}
+      ]
+    },
+    {
+      "attributes":
+      [
+        {"k":"width","v":"100%"},
+        {"k":"height","v":"166"},
+        {"k":"scrolling","v":"no"},
+        {"k":"allow","v":"autoplay"},
+        {"k":"src","v":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/963802915&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"}
+      ]
+    },
+    {
+      "attributes":
+      [
+        {"k":"width","v":"100%"},
+        {"k":"height","v":"166"},
+        {"k":"scrolling","v":"no"},
+        {"k":"allow","v":"autoplay"},
+        {"k":"src","v":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/963804673&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"}
+      ]
+    }
+  ]
+}

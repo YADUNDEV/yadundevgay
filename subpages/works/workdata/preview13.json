@@ -1,0 +1,17 @@
+{
+  "title" : "Character Creator Prototype",
+  "date":"2018",
+  "order": 13,
+  "video":"https://youtube.com/embed/VWgqELtZuA0",
+  "description":"A prototype capable of modifying a characters meshes, bones, and materials before serializing and de-serializing that information to and from XML. Models such as clothing or body parts can be swapped with other parts and are subsequently re-rigged, bones can be manipulated and scaled, and colors can be changed. There is also framework for texture swapping. All of this data is saved into a XML document averaging about 5000 lines which is later parsed through on load.",
+  "details":[
+    {"k":"Engine","v":"Unity 2017"},
+    {"k":"Role", "v": "Independent"}
+  ],
+  "links":[],
+  "thumbnail" : "ccproto/sliders.gif",
+  "images":[
+  ],
+  "embeds":[
+  ]
+}

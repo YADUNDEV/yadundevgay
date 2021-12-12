@@ -1,0 +1,33 @@
+{
+    "title" : "Abomination Fight Pit Deluxe",
+    "date":"2021",
+    "order":21,
+    "video":"https://www.youtube.com/embed/FXg_MC5zkPk?start=30",
+    "description":"Abomination Fight Pit Deluxe is a 4-player competitive platform fighter made with NodeJs utilizing the Phaser 3 API. Featuring detailed hand-drawn animation and a unique aesthetic, AFPD includes 7 playable characters, 7 unique stages, and a variety of modes and options.",
+    "details":[
+        {"k":"Engine","v":"Node.js w/ Phaser 3"},
+        {"k":"Platforms","v":"PC, Web"},
+        {"k":"Role", "v": "Independent"}
+    ],
+    "links":[{
+            "show":"true",
+            "info":"Itch.io",
+            "url":"https://yadunded.itch.io/abomination-fight-pit-deluxe"
+        }
+    ],
+    "thumbnail" : "afpd/thumbnail0.gif",
+    "images":[
+        "afpd/css.png",
+        "afpd/team1.png",
+        "afpd/ffa4.png",
+        "afpd/ffa3.png",
+        "afpd/ffa2.png",
+        "afpd/ffa1.png",
+        "afpd/sss.png",
+        "afpd/stats.png",
+        "afpd/abominationGallery.png"
+
+    ],
+    "embeds":[
+    ]
+}

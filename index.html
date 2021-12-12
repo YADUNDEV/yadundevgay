@@ -2,51 +2,65 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="author" content="Jacob Sirotta">
-	<meta name="description" content="Jacob Sirotta's Programming Portfolio">
+	<meta name="author" content="Emmet Chaim Sirotta">
+	<meta name="description" content="Emmet Sirotta's Programming Portfolio">
 	<meta name="keywords" contents="Video game, programming, portfolio, game design, software, developer, engineer">
-	<title>Chaim Sirotta's Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Emmet Sirotta's Portfolio</title>
 	<link rel="stylesheet"href="main.css">
 	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src = "jquery-lazyload-any-0.3.1/build/jquery.lazyload-any.min.js"></script>
+	<script src = "scripts/jquery-lazyload-any-0.3.1/build/jquery.lazyload-any.min.js"></script>
 </head>
 
 <body>
+<div class="full-page">
+	<div class="content-iframe-landscape">
+			<!--<iframe id = "home"  class="main-page-iFrame" src = "home.html" width= "100%" scrolling="no"></iframe>-->
+			<iframe id = "works"  class="main-page-iFrame" src = "./subpages/works/works.html" width= "100%" scrolling="no"></iframe>
+			<iframe id = "about"  class="main-page-iFrame-disabled-right" src = "./subpages/about/about.html" width= "100%" scrolling="no"></iframe>
+	</div>
+	<div class="topbar">
+		<div class="tbhead">
+			<h1>Emmet Sirotta</h1>
+			<h2>Software Engineer</h2>
+		</div>
+		<div class="tbbuttons" name="page">
+			<span><label class="tbclicked">Works<input class="radd"type="checkbox"name="tp1"value="works"></label></span>
+			<span><label class="tbbutton">About<input class="radd"type="checkbox"name="tp2"value="about"></label></span>
+		</div>
+	</div>
 
-<div class="content-iframe">
-		<iframe id = "home"  class="main-page-iFrame" src = "home.html" width= "100%" scrolling="no"></iframe>
-
-		<iframe id = "works"  class="main-page-iFrame-disabled-right" src = "works.html" width= "100%" scrolling="no"></iframe>
-		<iframe id = "about"  class="main-page-iFrame-disabled-right" src = "about.html" width= "100%" scrolling="no"></iframe>
-
+	<div class="sidebar">
+		<div class="sbhead">
+			<h1>Emmet Sirotta</h1>
+			<h2>Software Engineer</h2>
+		</div>
+		<div class="sbbuttons" name = "page">
+			<!--<span><label class="sbclicked">Home<input class="radd" type="radio" name="page" value="home"checked = true></span></label>-->
+			<span><label class="sbclicked">Works<input class="radd" type="checkbox" name="sp1" value="works"></label></span>
+			<span><label class="sbbutton">About<input class="radd" type="checkbox" name="sp2" value="about" ></label></span>
+		<!--	<span><label class="sbbutton">Blog<input class="radd" type="radio" name="page" value="blog"></span></label>-->
+		</div>
+	</div>
+</div>
+<div>
+	<div class="image-preview-container-hidden">
+		<div class="image-preview-hidden"> 
+			<img class="previewed-image-hidden" src="./subpages/works/workdata/files/golf/title.gif">
+		</div>
+	</div>
+	<img class="image-preview-cancel-hidden" src="./files/uiCloseIcon.png">
 </div>
 
-<div class="sidebar">
-	<div class="sbhead">
-		<h1>Chaim Sirotta</h1>
-		<h2>Games Software Engineer</h2>
-	</div>
-	<br>
-	<div class="sbbuttons" name = "page">
-		<span><label class="sbclicked">Home<input class="radd" type="radio" name="page" value="home"checked = true></span></label>
-		<span><label class="sbbutton">Works<input class="radd" type="radio" name="page" value="works"></label></span>
-		<span><label class="sbbutton">About<input class="radd" type="radio" name="page" value="about" ></span></label>
-	<!--	<span><label class="sbbutton">Blog<input class="radd" type="radio" name="page" value="blog"></span></label>-->
-	</div>
-	<h4>© 2014-2020 Jacob Sirotta</h4>
-</div>
 
-
-
-<script type="text/javascript" src="iframe-resizer-4.1.1/js/iframeResizer.min.js"></script>
-<script>
-  //iFrameResize({ log: true,scrolling: true, heightCalculationMethod: 'taggedElement'}, '#home')
-	//iFrameResize({ log: true,scrolling: true, heightCalculationMethod: 'taggedElement'}, '#works')
-	//iFrameResize({ log: true,scrolling: true, heightCalculationMethod: 'taggedElement'}, '#about')
+<script type="text/javascript" src="scripts/iframe-resizer-4.1.1/js/iframeResizer.min.js"></script>
+<script type="text/javascript" src="scripts/iframe-resizer-4.1.1/js/iframeResizer.contentWindow.min.js"></script>
+<!--<script type="text/javascript" src="MainSideBar.js"></script>-->
+<script async type="module" >
+	import PortfolioNavigation from './scripts/PortfolioNavigation.js';
+	const nav = new PortfolioNavigation(document,window,["works","about"]);
 </script>
-<script type="text/javascript" src="iframe-resizer-4.1.1/js/iframeResizer.contentWindow.min.js"></script>
-<script type="text/javascript" src="MainSideBar.js"></script>
 <!-- End page content -->
 </body>
 </html>

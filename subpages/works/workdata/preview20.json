@@ -1,0 +1,28 @@
+{
+    "title" : "The Loop Trail Quest",
+    "date":"2019",
+    "order":20,
+    "video":"https://www.youtube.com/embed/RgGTwy4p2UY",
+    "description":"Software written to accommodate a field survey regarding peoples’ relationships with the local park environment and the delineating results between different educational approaches. Developed for Android targeting Kindle Fire devices, the software supports both landscape and portrait mode. \nThe Loop Trail “Quest”: Use of a Choice-based Digital Simulation, An Interactive Video, and a Booklet to Communicate and Analyze Decision-making of Park Visitors: https://doi.org/10.1080/17524032.2021.1927129",
+    "details":[
+        {"k":"Engine","v":"Unity 2018"},
+        {"k":"Platforms","v":"Android"},
+        {"k":"Studio", "v":"FlyGuy Interactive L.L.C."},
+        {"k":"Team Size","v":"2"},
+        {"k":"Role", "v": "Lead Programmer"},
+        {"k":"Contributions","v":"Animation, Support"}
+    ],
+    "links":[],
+    "thumbnail" : "looptrail/title.gif",
+    "images":[
+        "looptrail/titlefull.gif",
+        "looptrail/Image1.png",
+        "looptrail/Image2.png",
+        "looptrail/Image3.png",
+        "looptrail/Image4.png",
+        "looptrail/Image5.png",
+        "looptrail/Image6.png"
+    ],
+    "embeds":[
+    ]
+}

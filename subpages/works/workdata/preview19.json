@@ -1,0 +1,27 @@
+{
+  "title" : "Patriot Slam",
+  "date":"2019",
+  "order":19,
+  "video":"https://www.youtube.com/embed/s0_5quO-oeU",
+  "description":"Patriot Slam is a competitive action-sports game developed by students enrolled in George Mason University's  Advanced Game Design course. The game is built utilizing the newest version of the Unity Engine (2019), and is based off of Windjammers, the 1994 arcade hit by Data East on the Neo Geo arcade system. I was responsible for programming input, frisbee physics and mechanics, character state machines, asset implementation, and shaders, as well as VFX and UI design such as seen on the character select screen.",
+  "details":[
+    {"k":"Engine","v":"Unity 2019"},
+    {"k":"Platforms","v":"PC"},
+    {"k":"Team Size","v":"24"},
+    {"k":"Role", "v": "Programming"},
+    {"k":"Contributions","v":"UI Art"}
+  ],
+  "links":[{
+    "show":"true",
+    "info":"Itch.io",
+    "url":"https://skyboygames.itch.io/patriot-slam"
+  }],
+  "thumbnail" : "patriot/ss1.gif",
+  "images":[
+    "patriot/ss2.gif",
+    "patriot/ss1.gif",
+    "patriot/ss3.gif"
+  ],
+  "embeds":[
+  ]
+}

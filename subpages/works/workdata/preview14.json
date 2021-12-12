@@ -1,0 +1,18 @@
+{
+  "title" : "Platform Fighter Prototype",
+  "date":"2018",
+  "order":14,
+  "video":"https://www.youtube.com/embed/vj7Q4ypKWxs",
+  "description":"This prototype is a physics and input/output recreation of the original Super Smash Bros. It uses a state machine setup where physics and transitional permissions are determined by predetermined pointers with correspondence to each individual frame of each possible animation. There are three methods states can use to transition between each other; In addition to override transitions, the prototype features two state buffer systems, one for per frame buffers and another for buffers that are activated at the end of x number of state transitions (as an example, shield breaks would use the latter type, as the character would go through a tumble, getup, and dizzy state). Scale and physics is nearly 1:1 with the original game, and so are inputs for all movement and shield related states as well as aerial and special attacks. The prototype declares and defines roughly 151 different states, with roughly 30-50 of those being functional for the at the time of recording the video demonstration. In the time since, visual feedback as well as hitboxes and vulnerable states have been added, shown in the gif.",
+  "details":[
+    {"k":"Engine","v":"Unity 2018"},
+    {"k":"Role", "v": "Independent"}
+  ],
+  "links":[],
+  "thumbnail" : "pfproto/gross.gif",
+  "images":[
+    "pfproto/gross.gif"
+  ],
+  "embeds":[
+  ]
+}

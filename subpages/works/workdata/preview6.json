@@ -1,0 +1,27 @@
+{
+  "title" : "Back-Fire Prototype",
+  "date":"2017",
+  "order": 6,
+  "video":"https://www.youtube.com/embed/U4nNDUTTSww",
+  "description":"A prototype that combines the gameplay of Breakout with the conventions of the shoot ‘em up subgenre.",
+  "details":[
+    {"k":"Engine","v":"Unity 2017"},
+    {"k":"Platforms","v":"PC, Android"},
+    {"k":"Team Size","v":"5"},
+    {"k":"Role", "v": "Lead Programmer"},
+    {"k":"Contributions","v":"Design"}
+  ],
+  "links":[{
+    "show":"false",
+    "info":"",
+    "url":""
+  }],
+  "thumbnail" : "backfire/title.gif",
+  "images":[
+    "backfire/title.png",
+    "backfire/gameplay.gif"
+  ],
+  "embeds":[
+
+  ]
+}

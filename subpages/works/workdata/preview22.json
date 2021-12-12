@@ -1,0 +1,27 @@
+{
+    "title" : "CIS S.E.A.D. Academy",
+    "date":"2021",
+    "order": 22,
+    "video":"https://www.youtube.com/embed/Rjg2RMaQSkg",
+    "description":"CIS SEAD Academy is a WebGL based social, emotional, and academic development evaluation tool and game designed for primary school students. Developed for and in association with Communities in Schools, the game utilizes a server-less API to submit, receive, and manage data points via AWS DynamoDB, and AWS Cognito for user accounts.\nIn the game itself, students progress through a series of 7 scenarios designed to record S.E.A.D.-relevant data without passing judgement or attempting to teach S.E.A.D. concepts.",
+    "details":[
+        {"k":"Engine","v":"Unity 2020"},
+        {"k":"Platforms","v":"WebGL"},
+        {"k":"Studio", "v":"FlyGuy Interactive L.L.C."},
+        {"k":"Role", "v": "Senior Programmer"},
+        {"k":"Contributions","v":"Design, Animation, Support"}
+    ],
+    "links":[],
+    "thumbnail" : "cis/thumbnail.gif",
+    "images":[
+        "cis/Image7.png",
+        "cis/Image1.png",
+        "cis/Image2.png",
+        "cis/Image3.png",
+        "cis/Image4.png",
+        "cis/Image5.png",
+        "cis/Image6.png"
+    ],
+    "embeds":[
+    ]
+}

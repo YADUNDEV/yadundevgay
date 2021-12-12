@@ -1,0 +1,26 @@
+{
+  "title" : "From Form",
+  "date":"2019",
+  "order":17,
+  "video":"https://www.youtube.com/embed/82PaubZMI0Y",
+  "description":"From Form is an experimental rhythm prototype wherein the player must hit notes by controlling a real synthesizer via the 'MidiJack' Unity plugin. Alongside backing tracks, it makes use of a custom real-time synthesizer created in Unity.",
+  "details":[
+    {"k":"Engine","v":"Unity 2018"},
+    {"k":"Platforms","v":"PC"},
+    {"k":"Team Size","v":"4"},
+    {"k":"Role", "v": "Lead Programmer"},
+    {"k":"Contributions","v":"Design, UI Art"}
+  ],
+  "detailsContent":[
+    "Unity 2018",
+    "PC",
+    "Programming, Design, Additional UI Design",
+    "4"
+  ],
+  "links":[],
+  "thumbnail" : "fromform/thumbnail.gif",
+  "images":[
+  ],
+  "embeds":[
+  ]
+}

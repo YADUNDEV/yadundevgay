@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet"href="../../main.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="page-content">
+			<div class="works-header">
+				<!-- Header -->
+				<h1>Works</h1>
+				<img src="../../files/header-line-break.png">
+			</div>
+			<div class="works-content">
+				<template>
+					<article class="works-content-iFrame">
+						<button class="accordion">
+							<div class="b_flex">
+								<span class="w_title">~WORKTITLE~</span>
+								<span class="w_date">~DATE~</span>
+							</div>
+							<p></p>
+						</button>
+					<div class="panel">
+						<div class = "w_main">
+							<div class="w_video">
+								<iframe
+										src='~VIDEOSOURCE~'
+										frameborder='0'
+										allow='accelerometer; encrypted-media; gyroscope; picture-in-picture'
+										allowfullscreen>
+								</iframe>
+							</div>
+							<div class="w_info">
+								<div class="w_description"><p>~DESCRIPTION</p></div>
+								<div class="w_attributes">
+									<div class="p_details">
+										<template>
+											<div class="p_detail">
+												<h1>~DETAIL~</h1>
+												<h2>~CONTENT~</h2>
+											</div>
+										</template>
+									</div>
+									<ul class="p_details">
+										<div class="p_detail">
+											<h1>Link: </h1>
+											<h2>
+												<a href='~LINK~' target=_blank alt='Project Link'>
+													<button>~LINK INFO~</button>
+												</a>
+											</h2>
+										</div>
+									</ul>
+								</div>
+							</div>
+							
+						</div>
+						<div class="w_marquee">
+							<template>
+								<div><img class = "w_marqueeimg_idle" src = '~IMAGE~'></div>
+							</template>
+						</div>
+					</div>
+				</article>
+				</template>
+			</div>
+			<br><br>
+			<br><br>
+			<div class = "copyfoot">
+				<h4>© 2014-2021 Emmet Chaim Sirotta</h4>
+			</div>
+		</div>
+		<script async type="module" >
+			import WorksCollection from './scripts/WorksCollection.js';
+			const works = new WorksCollection(document,window);
+			works.initWorkList();
+			document.addEventListener('wheel',function() {works.endOfPageCheck(works);},{passive:true});
+			works.endOfPageCheck(works);
+		</script>
+	</body>
+</html>

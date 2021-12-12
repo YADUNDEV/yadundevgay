@@ -1,0 +1,22 @@
+{
+  "title" : "MISSILE COPPONG",
+  "date":"2016",
+  "order": 3,
+  "video":"https://www.youtube.com/embed/l-m6lnmTivo",
+  "description":"A simple WebGL game that combines elements of PONG and Missile Command. Made in a day or two.",
+  "details":[
+    {"k":"Engine","v":"Construct 2"},
+    {"k":"Platforms","v":"WebGL"},
+    {"k":"Role","v":"Independent"}
+  ],
+  "links":[{
+    "show":"true",
+    "info":"Itch.io",
+    "url":"https://yadunded.itch.io/missile-coppong"
+  }],
+  "thumbnail" : "mcp/mcthumgj.gif",
+  "images":[
+  ],
+  "embeds":[
+  ]
+}
