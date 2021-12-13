@@ -80,6 +80,11 @@
 	height: auto;
 	opacity: 80%;
 	transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s, right 0.2s, bottom 0.2s, transform 0.5s, opacity 0.6s;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 .image-preview-cancel-shown:hover {
 	opacity: 100%;
@@ -549,11 +554,16 @@ body {
 	align-items: stretch;
 	width: 100%;
 }
+.w_video_parent {
+	display: block;
+	height: 400px;
+}
 .w_video {
 	background-color: var(--cBrown2);
 	position: relative;
-	width: 100%;
-	padding-bottom: 56.25%;
+	width:100%;
+	height: 100%;
+	margin-bottom: 56.25%;
 }
 .w_video iframe {
 	position: absolute;
@@ -638,7 +648,11 @@ body {
 	font-size:auto;
 	text-align: center;
 	position: relative;
-	cursor:pointer;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 .p_detail button:hover {
 	background-color:var(--cBeige1);
@@ -649,10 +663,10 @@ body {
 	color: var(--cBeige3);
 }
 .w_marquee {
-	width: 50%;
+	width: 40%;
 	margin: 0 0 32px 0;
-	padding-left: 25%;
-	padding-right: 25%;
+	padding-left: 30%;
+	padding-right: 30%;
 	background-color: var(--cBrown2);
 	display: flex;
 	justify-content: flex-start;
@@ -668,23 +682,31 @@ body {
 .w_marquee div {
 	max-width:400px;
 	max-height: 200px;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	margin-left: 10px;
-	margin-right: 10px;
-	object-fit:contain1;
+	margin: 5% 10px 5% 10px;
+	/*
+	padding: 5% 10px 5% 10px;
+	*/
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
 [class*="w_marqueeimg_"]{
 	height: 100%;
 	transition: transform .2s, opacity .2s;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 .w_marqueeimg_idle {
 	transform: scale(0.9,0.9);
-	opacity: 80%;
+	opacity: 50%;
 }
 .w_marqueeimg_idle:hover {
 	transform: scale(1,1);
-	opacity: 88%;
+	opacity: 70%;
 }
 .w_marqueeimg_sel {
 	transform: scale(1.1,1.1);
@@ -776,11 +798,14 @@ body {
 }*/
 .a_resume {
 	padding: 4%;
-	display:block;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
 }
 .a_resume button {
 	position: relative;
-	left: 2%;
+	width: min-content;
 	background-color:var(--cBeige2);
 	color:var(--cBrown2);
 	cursor: pointer;

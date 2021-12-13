@@ -23,13 +23,15 @@
 						</button>
 					<div class="panel">
 						<div class = "w_main">
-							<div class="w_video">
-								<iframe
-										src='~VIDEOSOURCE~'
-										frameborder='0'
-										allow='accelerometer; encrypted-media; gyroscope; picture-in-picture'
-										allowfullscreen>
-								</iframe>
+							<div class="w_video_parent">
+								<div class="w_video">
+									<iframe
+											src='~VIDEOSOURCE~'
+											frameborder='0'
+											allow='encrypted-media; picture-in-picture'
+											allowfullscreen>
+									</iframe>
+								</div>
 							</div>
 							<div class="w_info">
 								<div class="w_description"><p>~DESCRIPTION</p></div>
@@ -42,16 +44,18 @@
 											</div>
 										</template>
 									</div>
-									<ul class="p_details">
-										<div class="p_detail">
-											<h1>Link: </h1>
-											<h2>
-												<a href='~LINK~' target=_blank alt='Project Link'>
-													<button>~LINK INFO~</button>
-												</a>
-											</h2>
-										</div>
-									</ul>
+									<div class="p_details">
+										<template>
+											<div class="p_detail">
+												<h1>Link: </h1>
+												<h2>
+													<a href='~LINK~' target=_blank alt='Project Link'>
+														<button>~LINK INFO~</button>
+													</a>
+												</h2>
+											</div>
+										</template>
+									</div>
 								</div>
 							</div>
 							
@@ -71,12 +75,10 @@
 				<h4>© 2014-2021 Emmet Chaim Sirotta</h4>
 			</div>
 		</div>
-		<script async type="module" >
+		<script type="module" >
 			import WorksCollection from './scripts/WorksCollection.js';
 			const works = new WorksCollection(document,window);
-			works.initWorkList();
 			document.addEventListener('wheel',function() {works.endOfPageCheck(works);},{passive:true});
-			works.endOfPageCheck(works);
 		</script>
 	</body>
 </html>

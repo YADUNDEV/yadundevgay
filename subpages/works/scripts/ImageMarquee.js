@@ -26,7 +26,9 @@ export default class ImageMarquee {
         this.scrollToSelected();
     }
     scrollToSelected() {
-        this.divElement.scroll(this.imageElements[this.selected].offsetLeft+(this.imageElements[this.selected].offsetWidth*.5)-((this.divElement.offsetWidth-(this.divElement.getAttribute("padding-left")*2))*.5),0);
+        var imCenterX = this.imageElements[this.selected].offsetLeft+(this.imageElements[this.selected].offsetWidth*.5);
+        //-(this.divElement.getAttribute("padding-left")*2))*.5)
+        this.divElement.scroll(imCenterX-((this.divElement.offsetWidth*.5)),0);
         //this.imageElements[this.selected].scrollIntoView();
     }
 }

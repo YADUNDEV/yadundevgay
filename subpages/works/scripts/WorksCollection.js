@@ -7,16 +7,17 @@ export default class WorksCollection {
     this.imageMarquees = new LpList({});
     this.document = document;
     this.window = window;
-    console.log(this.window.parent.document);
+    //console.log(this.window.parent.document);
     this.imagePreview = this.window.parent.document.querySelector(".image-preview-container-hidden").parentElement;
     this.imagePreview.lastElementChild.addEventListener("click",(()=>{this.hideImage();}).bind(this));
     this.fullyInitialized = false;
     this.worksCount = 22;
-    console.log(document);
-    console.log(window);
+    //console.log(document);
+    //console.log(window);
     //document.addEventListener('DOMContentLoaded',this.initWorkList);
     //this.initWorkList();
     //this.document.addEventListener('scroll',this.endOfPageCheck);
+    this.initWorkList();
   }
   initWorkList() {
     console.log("initworklist");
@@ -48,6 +49,7 @@ export default class WorksCollection {
       scopeOb.worksList.sort((pv,cv)=>{
         return cv.order > pv.order;
       });
+      scopeOb.spawnWork(scopeOb);
     }
   }
   loadContent(work,scopeOb){
@@ -87,21 +89,19 @@ export default class WorksCollection {
     var dnode = wnode.querySelectorAll(".p_details").item(0);
   
     for (var o = 0; o < work.details.length;o++){
-      var deet = scopeOb.document.importNode(temps.item(0).content.querySelector("div"),true);
+      var deet = scopeOb.document.importNode(temps.item(0).content.children[0],true);
       deet.firstElementChild.textContent = work.details[o].k;
       deet.lastElementChild.textContent = work.details[o].v;
       dnode.appendChild(deet);
     }
     //LINK//
-    var lnode = wnode.getElementsByClassName("p_details")[1].getElementsByClassName("p_detail")[0];
-    lnode.firstElementChild.style.display = "none";
-    lnode.lastElementChild.firstElementChild.style.display = "none";
-    lnode.lastElementChild.firstElementChild.firstElementChild.style.display = "none";
+    var lnode = wnode.querySelectorAll(".p_details").item(1);
     for (var o = 0; o < work.links.length;o++) {
       if (work.links[o].show=="true") {
-        var _link = scopeOb.document.importNode(lnode,true);
+        var _link = scopeOb.document.importNode(temps.item(1).content.children[0],true);
         _link.lastElementChild.firstElementChild.setAttribute("href",work.links[o].url);
         _link.lastElementChild.firstElementChild.firstElementChild.textContent = work.links[o].info;
+        lnode.appendChild(_link);
       }
     }
   
@@ -113,7 +113,7 @@ export default class WorksCollection {
     else {
       var _imEls = new LpList({});
       for (var o = 0; o < work.images.length;o++){
-        var _img = scopeOb.document.importNode(temps.item(1).content.querySelector("div"),true);
+        var _img = scopeOb.document.importNode(temps.item(2).content.children[0],true);
         /*_img.setAttribute('href','works/'+work.images[o]);*/
         _img.querySelector("img").setAttribute('src','workdata/files/'+work.images[o]);
         var _imnodeob = imnode.appendChild(_img);
