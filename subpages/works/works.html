@@ -79,6 +79,7 @@
 			import WorksCollection from './scripts/WorksCollection.js';
 			const works = new WorksCollection(document,window);
 			document.addEventListener('wheel',function() {works.endOfPageCheck(works);},{passive:true});
+			document.addEventListener('touchmove',function() {works.endOfPageCheck(works);},{passive:true});
 		</script>
 	</body>
 </html>
