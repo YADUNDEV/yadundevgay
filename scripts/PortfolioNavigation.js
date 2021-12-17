@@ -54,6 +54,7 @@ export default class PortfolioNavigation {
             if (ob.getAttribute("value") == goalPage) {
                 ob.setAttribute("checked","true");
                 ob.parentElement.setAttribute("class",ob.parentElement.getAttribute("class").substring(0,2)+"clicked");
+                
             } 
             else {
                 ob.setAttribute("checked","false");
@@ -67,6 +68,8 @@ export default class PortfolioNavigation {
         this.pages.cycleThrough((ob)=>{
             if (ob.id == goalPage) {
                 ob.setAttribute("class","main-page-iFrame");
+                ob.contentWindow.document.body.querySelector(".page-content").scrollTop = 0;
+                ob.contentWindow.document.documentElement.querySelector(".page-content").scrollTop = 0;
                 newPage = i;
             }
             else if (newPage != this.lastPage) { //If the new page has been found
